@@ -1,0 +1,1512 @@
+[30;1m2023-08-26 15:21:18[0m [34;1mINFO    [0m [35m__main__[0m -> BingImageCreator#9981 is now running!
+[30;1m2023-08-26 15:21:43[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'cat' (community) [BingImageCreator]
+[30;1m2023-08-26 15:21:45[0m [31mERROR   [0m [35msrc.imageCreate[0m -> Error while create image: Redirect failed
+[31mTraceback (most recent call last):
+  File "C:\Users\danie\Downloads\DiscordBot-EdgeGPT-main\DiscordBot-EdgeGPT-main\src\imageCreate.py", line 20, in create_image
+    images = await image_generator.get_images(prompt)
+  File "C:\Users\danie\AppData\Local\Programs\Python\Python310\lib\site-packages\BingImageCreator.py", line 312, in get_images
+    raise Exception("Redirect failed")
+Exception: Redirect failed[0m
+[30;1m2023-08-26 15:22:07[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : '🤔 again' (community) [Style: balanced]
+[30;1m2023-08-26 15:22:08[0m [31mERROR   [0m [35mcogs.event[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
+[31mTraceback (most recent call last):
+  File "C:\Users\danie\Downloads\DiscordBot-EdgeGPT-main\DiscordBot-EdgeGPT-main\cogs\event.py", line 120, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+  File "C:\Users\danie\AppData\Local\Programs\Python\Python310\lib\site-packages\EdgeGPT\EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "C:\Users\danie\AppData\Local\Programs\Python\Python310\lib\site-packages\EdgeGPT\chathub.py", line 195, in ask_stream
+    raise Exception(
+Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
+[30;1m2023-08-26 15:22:28[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mkaduvert#0[0m : 'hallo' (community) [BingImageCreator]
+[30;1m2023-08-26 15:22:29[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Hi' (community) [Style: balanced]
+[30;1m2023-08-26 15:22:29[0m [31mERROR   [0m [35msrc.imageCreate[0m -> Error while create image: Redirect failed
+[31mTraceback (most recent call last):
+  File "C:\Users\danie\Downloads\DiscordBot-EdgeGPT-main\DiscordBot-EdgeGPT-main\src\imageCreate.py", line 20, in create_image
+    images = await image_generator.get_images(prompt)
+  File "C:\Users\danie\AppData\Local\Programs\Python\Python310\lib\site-packages\BingImageCreator.py", line 312, in get_images
+    raise Exception("Redirect failed")
+Exception: Redirect failed[0m
+[30;1m2023-08-26 15:22:30[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
+[31mTraceback (most recent call last):
+  File "C:\Users\danie\Downloads\DiscordBot-EdgeGPT-main\DiscordBot-EdgeGPT-main\src\response.py", line 61, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+  File "C:\Users\danie\AppData\Local\Programs\Python\Python310\lib\site-packages\EdgeGPT\EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "C:\Users\danie\AppData\Local\Programs\Python\Python310\lib\site-packages\EdgeGPT\chathub.py", line 195, in ask_stream
+    raise Exception(
+Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
+[30;1m2023-08-26 16:11:33[0m [31mERROR   [0m [35m__main__[0m -> EdgeGPT version 0.13.2 is installed but does not match the requirements
+[30;1m2023-08-26 16:21:41[0m [34;1mINFO    [0m [35m__main__[0m -> BingImageCreator#9981 is now running!
+[30;1m2023-08-26 16:21:49[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'cat' (general) [BingImageCreator]
+[30;1m2023-08-26 16:22:08[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Hi' (general) [Style: balanced]
+[30;1m2023-08-26 16:25:08[0m [34;1mINFO    [0m [35m__main__[0m -> BingImageCreator#9981 is now running!
+[30;1m2023-08-26 16:25:10[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'cat' (general) [BingImageCreator]
+[30;1m2023-08-26 16:25:31[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Hello World' (general) [Style: balanced]
+[30;1m2023-08-26 16:28:30[0m [34;1mINFO    [0m [35m__main__[0m -> BingImageCreator#9981 is now running!
+[30;1m2023-08-26 16:28:51[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31msplittic#0 set Bing Cookies successful[0m
+[30;1m2023-08-26 10:37:45[0m [34;1mINFO    [0m [35m__main__[0m -> BingImageCreator#9981 is now running!
+[30;1m2023-08-26 10:39:43[0m [34;1mINFO    [0m [35m__main__[0m -> BingImageCreator#9981 is now running!
+[30;1m2023-08-26 10:44:54[0m [34;1mINFO    [0m [35m__main__[0m -> BingImageCreator#9981 is now running!
+[30;1m2023-08-26 10:46:09[0m [34;1mINFO    [0m [35m__main__[0m -> BingImageCreator#9981 is now running!
+[30;1m2023-08-26 10:47:13[0m [34;1mINFO    [0m [35m__main__[0m -> BingImageCreator#9981 is now running!
+[30;1m2023-08-26 10:47:16[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'cat' (community) [BingImageCreator]
+[30;1m2023-08-26 10:47:17[0m [31mERROR   [0m [35msrc.imageCreate[0m -> Error while create image: Redirect failed
+[31mTraceback (most recent call last):
+  File "/home/container/src/imageCreate.py", line 21, in create_image
+    images = await image_generator.get_images(prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/BingImageCreator.py", line 287, in get_images
+    raise Exception("Redirect failed")
+Exception: Redirect failed[0m
+[30;1m2023-08-26 10:47:34[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Hi' (community) [Style: balanced]
+[30;1m2023-08-26 10:50:29[0m [34;1mINFO    [0m [35m__main__[0m -> BingImageCreator#9981 is now running!
+[30;1m2023-08-26 10:51:26[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mashwinmhaskar#0[0m : 'generate me a image of a mitten' (community) [Style: balanced]
+[30;1m2023-08-26 10:52:17[0m [34;1mINFO    [0m [35msrc.response[0m -> [31mashwinmhaskar#0[0m : 'Can you generate an image of a hat?' (community) [Style: balanced] [button]
+[30;1m2023-08-26 10:53:07[0m [34;1mINFO    [0m [35msrc.response[0m -> [31mashwinmhaskar#0[0m : 'What other objects can you draw?' (community) [Style: balanced] [button]
+[30;1m2023-08-26 10:53:57[0m [34;1mINFO    [0m [35msrc.response[0m -> [31mashwinmhaskar#0[0m : 'Can you generate an image of a dog?' (community) [Style: balanced] [button]
+[30;1m2023-08-26 10:54:45[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Make me a comic cat with sunglasses' (community) [Style: balanced]
+[30;1m2023-08-26 10:54:53[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mashwinmhaskar#0[0m : 'make it a german Shephard' (community) [Style: balanced]
+[30;1m2023-08-26 10:55:37[0m [34;1mINFO    [0m [35msrc.response[0m -> [31msplittic#0[0m : 'Make it wear a hat' (community) [Style: balanced] [button]
+[30;1m2023-08-26 10:56:06[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mashwinmhaskar#0[0m : 'make it extremely photorealistic' (community) [Style: balanced]
+[30;1m2023-08-26 10:56:34[0m [34;1mINFO    [0m [35msrc.response[0m -> [31msplittic#0[0m : 'Can you add some text to the comic?' (community) [Style: balanced] [button]
+[30;1m2023-08-26 10:57:13[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mashwinmhaskar#0[0m : 'wtf🤣🤣🤣' (community) [Style: balanced]
+[30;1m2023-08-26 10:57:31[0m [34;1mINFO    [0m [35msrc.response[0m -> [31msplittic#0[0m : 'Add some sunglasses reflection' (community) [Style: balanced] [button]
+[30;1m2023-08-26 10:58:04[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mashwinmhaskar#0[0m : 'What is your name?' (community) [Style: balanced] [button]
+[30;1m2023-08-26 10:59:42[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mConversation style has been successfully switch to creative[0m
+[30;1m2023-08-26 11:00:14[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mashwinmhaskar#0[0m : 'create an extremely photorealistic image of an German shepherd' (bing-chat) [Style: creative]
+[30;1m2023-08-26 11:01:24[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'create an realistic image of an German shepherd' (bing-chat) [Style: balanced]
+[30;1m2023-08-26 11:02:11[0m [34;1mINFO    [0m [35msrc.response[0m -> [31msplittic#0[0m : 'Can you add a background to the image?' (bing-chat) [Style: balanced] [button]
+[30;1m2023-08-26 11:02:49[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31macrocutter#0[0m : 'bing more like bing chilling' (community) [Style: balanced]
+[30;1m2023-08-26 11:02:54[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mashwinmhaskar#0[0m : 'As if it is realistic🤣' (bing-chat) [Style: balanced]
+[30;1m2023-08-26 11:03:40[0m [34;1mINFO    [0m [35msrc.response[0m -> [31msplittic#0[0m : 'Add a forest background' (bing-chat) [Style: balanced] [button]
+[30;1m2023-08-26 11:03:47[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31macrocutter#0[0m : 'can you generate images' (community) [Style: balanced]
+[30;1m2023-08-26 11:03:55[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mashwinmhaskar#0[0m : 'Bing blocks after that, how does the API work' (bing-chat) [Style: balanced]
+[30;1m2023-08-26 11:04:17[0m [31mERROR   [0m [35mcogs.event[0m -> Error while sending message: cannot access local variable 'message' where it is not associated with a value
+[31mTraceback (most recent call last):
+  File "/home/container/cogs/event.py", line 120, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 135, in ask
+    for suggestion in message.get("suggestedResponses", [])
+                      ^^^^^^^
+UnboundLocalError: cannot access local variable 'message' where it is not associated with a value[0m
+[30;1m2023-08-26 11:04:22[0m [34;1mINFO    [0m [35msrc.response[0m -> [31msplittic#0[0m : 'Make it look like it's playing with a ball.' (bing-chat) [Style: balanced] [button]
+[30;1m2023-08-26 11:05:38[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31macrocutter#0[0m : 'can you generate an image of your friend (other llms)' (bing-chat) [Style: balanced]
+[30;1m2023-08-26 11:06:32[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31macrocutter#0[0m : 'can you generate an image of a cute furry' (bing-chat) [Style: balanced]
+[30;1m2023-08-26 11:06:54[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: cannot access local variable 'message' where it is not associated with a value
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 61, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 135, in ask
+    for suggestion in message.get("suggestedResponses", [])
+                      ^^^^^^^
+UnboundLocalError: cannot access local variable 'message' where it is not associated with a value[0m
+[30;1m2023-08-26 11:07:10[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : '🤔' (bing-chat) [Style: balanced]
+[30;1m2023-08-26 11:07:11[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31macrocutter#0[0m : 'can you generate an image of a cute furry' (bing-chat) [Style: balanced]
+[30;1m2023-08-26 11:07:32[0m [31mERROR   [0m [35mcogs.event[0m -> Error while sending message: cannot access local variable 'message' where it is not associated with a value
+[31mTraceback (most recent call last):
+  File "/home/container/cogs/event.py", line 120, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 135, in ask
+    for suggestion in message.get("suggestedResponses", [])
+                      ^^^^^^^
+UnboundLocalError: cannot access local variable 'message' where it is not associated with a value[0m
+[30;1m2023-08-26 11:07:33[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: cannot access local variable 'message' where it is not associated with a value
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 61, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 135, in ask
+    for suggestion in message.get("suggestedResponses", [])
+                      ^^^^^^^
+UnboundLocalError: cannot access local variable 'message' where it is not associated with a value[0m
+[30;1m2023-08-26 11:08:02[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'hi' (bing-chat) [Style: balanced]
+[30;1m2023-08-26 11:08:08[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mBing has been successfully reset[0m
+[30;1m2023-08-26 11:08:31[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31macrocutter#0[0m : 'can you generate an image of a cute furry' (bing-chat) [Style: balanced]
+[30;1m2023-08-26 11:09:15[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31macrocutter#0[0m : 'fox' (bing-chat) [Style: balanced]
+[30;1m2023-08-26 11:12:10[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 11:13:14[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Hi' (bing-chat) [Style: balanced]
+[30;1m2023-08-26 11:14:00[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mConversation style has been successfully switch to creative[0m
+[30;1m2023-08-26 11:14:03[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Hi' (bing-chat) [Style: creative]
+[30;1m2023-08-26 11:14:26[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31macrocutter#0[0m : 'furry like anthro' (bing-chat) [Style: balanced]
+[30;1m2023-08-26 11:16:15[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'make me a cute cat' (bing-chat) [Style: creative]
+[30;1m2023-08-26 11:16:42[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: 
+[31mTraceback (most recent call last):
+  File "/home/container/.local/lib/python3.11/site-packages/anyio/streams/tls.py", line 131, in _call_sslobject_method
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/ssl.py", line 921, in read
+    v = self._sslobj.read(len)
+        ^^^^^^^^^^^^^^^^^^^^^^
+ssl.SSLWantReadError: The operation did not complete (read) (_ssl.c:2576)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/container/.local/lib/python3.11/site-packages/httpcore/_backends/anyio.py", line 34, in read
+    return await self._stream.receive(max_bytes=max_bytes)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/anyio/streams/tls.py", line 196, in receive
+    data = await self._call_sslobject_method(self._ssl_object.read, max_bytes)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/anyio/streams/tls.py", line 138, in _call_sslobject_method
+    data = await self.transport_stream.receive()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 1203, in receive
+    await self._protocol.read_event.wait()
+  File "/usr/local/lib/python3.11/asyncio/locks.py", line 213, in wait
+    await fut
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/container/.local/lib/python3.11/site-packages/httpcore/_exceptions.py", line 10, in map_exceptions
+    yield
+  File "/home/container/.local/lib/python3.11/site-packages/httpcore/_backends/anyio.py", line 32, in read
+    with anyio.fail_after(timeout):
+  File "/home/container/.local/lib/python3.11/site-packages/anyio/_core/_tasks.py", line 119, in __exit__
+    raise TimeoutError
+TimeoutError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/container/.local/lib/python3.11/site-packages/httpx/_transports/default.py", line 60, in map_httpcore_exceptions
+    yield
+  File "/home/container/.local/lib/python3.11/site-packages/httpx/_transports/default.py", line 353, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 262, in handle_async_request
+    raise exc
+  File "/home/container/.local/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 245, in handle_async_request
+    response = await connection.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/httpcore/_async/connection.py", line 96, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/httpcore/_async/http11.py", line 121, in handle_async_request
+    raise exc
+  File "/home/container/.local/lib/python3.11/site-packages/httpcore/_async/http11.py", line 99, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/httpcore/_async/http11.py", line 164, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/httpcore/_async/http11.py", line 200, in _receive_event
+    data = await self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/httpcore/_backends/anyio.py", line 31, in read
+    with map_exceptions(exc_map):
+  File "/usr/local/lib/python3.11/contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/container/.local/lib/python3.11/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/container/src/response.py", line 57, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.creative, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 160, in ask_stream
+    images = await image_generator.get_images(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/BingImageCreator.py", line 267, in get_images
+    response = await self.session.post(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/httpx/_client.py", line 1848, in post
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/httpx/_client.py", line 1530, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/httpx/_client.py", line 1617, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/httpx/_client.py", line 1645, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/httpx/_client.py", line 1682, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/httpx/_client.py", line 1719, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/httpx/_transports/default.py", line 352, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/usr/local/lib/python3.11/contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/container/.local/lib/python3.11/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout[0m
+[30;1m2023-08-26 11:16:56[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'make me a cute cat' (bing-chat) [Style: creative]
+[30;1m2023-08-26 11:17:31[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: 'adaptiveCards'
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 57, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.creative, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 202, in ask_stream
+    cache = response["item"]["messages"][1]["adaptiveCards"][0][
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: 'adaptiveCards'[0m
+[30;1m2023-08-26 11:17:46[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Hi' (bing-chat) [Style: creative]
+[30;1m2023-08-26 11:18:45[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'generate me image of cute cat' (bing-chat) [Style: creative]
+[30;1m2023-08-26 11:19:18[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: 'adaptiveCards'
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 57, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.creative, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 202, in ask_stream
+    cache = response["item"]["messages"][1]["adaptiveCards"][0][
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: 'adaptiveCards'[0m
+[30;1m2023-08-26 11:19:30[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mBing has been successfully reset[0m
+[30;1m2023-08-26 11:19:38[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'generate me image of cute cat' (bing-chat) [Style: creative]
+[30;1m2023-08-26 11:20:11[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: 'adaptiveCards'
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 57, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.creative, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 202, in ask_stream
+    cache = response["item"]["messages"][1]["adaptiveCards"][0][
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: 'adaptiveCards'[0m
+[30;1m2023-08-26 11:20:43[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'generate me a cat image' (bing-chat) [Style: creative]
+[30;1m2023-08-26 11:21:17[0m [34;1mINFO    [0m [35msrc.response[0m -> [31msplittic#0[0m : 'Can you make it a cartoon?' (bing-chat) [Style: creative] [button]
+[30;1m2023-08-26 11:21:34[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mConversation style has been successfully switch to precise[0m
+[30;1m2023-08-26 11:21:49[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: 'adaptiveCards'
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 57, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.creative, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 202, in ask_stream
+    cache = response["item"]["messages"][1]["adaptiveCards"][0][
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: 'adaptiveCards'[0m
+[30;1m2023-08-26 11:22:00[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Generate me image of cat' (bing-chat) [Style: precise]
+[30;1m2023-08-26 11:22:33[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: 'adaptiveCards'
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 59, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.precise, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 202, in ask_stream
+    cache = response["item"]["messages"][1]["adaptiveCards"][0][
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: 'adaptiveCards'[0m
+[30;1m2023-08-26 11:22:41[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mBing has been successfully reset[0m
+[30;1m2023-08-26 11:22:48[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Generate me image of cat' (bing-chat) [Style: precise]
+[30;1m2023-08-26 11:23:42[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mBing has been successfully reset[0m
+[30;1m2023-08-26 11:23:49[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Generate me a cat image' (bing-chat) [Style: precise]
+[30;1m2023-08-26 11:24:23[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: 'adaptiveCards'
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 59, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.precise, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 202, in ask_stream
+    cache = response["item"]["messages"][1]["adaptiveCards"][0][
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: 'adaptiveCards'[0m
+[30;1m2023-08-26 11:33:16[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 11:33:47[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Generate image of cat' (💡｜imagine) [Style: balanced]
+[30;1m2023-08-26 11:34:08[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: UnauthorizedRequest: Cannot retrieve user status.
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 61, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 198, in ask_stream
+    raise Exception(
+Exception: UnauthorizedRequest: Cannot retrieve user status.[0m
+[30;1m2023-08-26 11:37:40[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 11:37:56[0m [31mERROR   [0m [35mcogs.edgegpt[0m -> Bing reset failed.
+[31mTraceback (most recent call last):
+  File "/home/container/cogs/edgegpt.py", line 72, in reset
+    await users_chatbot[user_id].reset()
+          ~~~~~~~~~~~~~^^^^^^^^^
+KeyError: 1064553604003942430[0m
+[30;1m2023-08-26 11:38:39[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 11:38:49[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'cat' (bing-chat) [BingImageCreator]
+[30;1m2023-08-26 11:39:12[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31msplittic#0 set Bing Cookies successful[0m
+[30;1m2023-08-26 11:39:57[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Hi' (bing-chat) [Style: balanced]
+[30;1m2023-08-26 11:40:51[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 11:41:06[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'cat' (bing-chat) [BingImageCreator]
+[30;1m2023-08-26 11:41:12[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'cat' (bing-chat) [BingImageCreator]
+[30;1m2023-08-26 11:41:17[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'cat' (bing-chat) [BingImageCreator]
+[30;1m2023-08-26 11:41:24[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'cat' (bing-chat) [BingImageCreator]
+[30;1m2023-08-26 11:41:34[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'cat' (bing-chat) [BingImageCreator]
+[30;1m2023-08-26 11:41:54[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'dog' (bing-chat) [BingImageCreator]
+[30;1m2023-08-26 11:42:50[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 11:44:26[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 11:45:33[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : '^' (rules) [Style: balanced]
+[30;1m2023-08-26 11:49:12[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 11:51:15[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31msplittic#0 set Bing Cookies successful[0m
+[30;1m2023-08-26 11:51:17[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Hi' (bing-chat) [Style: balanced]
+[30;1m2023-08-26 11:51:45[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31msplittic#0 delete Cookies[0m
+[30;1m2023-08-26 11:52:31[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mcinnamongold#0 set Bing Cookies successful[0m
+[30;1m2023-08-26 11:53:18[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mcinnamongold#0[0m : 'hello' (bing-chat³) [Style: balanced]
+[30;1m2023-08-26 11:53:38[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 61, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 198, in ask_stream
+    raise Exception(
+Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
+[30;1m2023-08-26 11:54:22[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mcinnamongold#0[0m : 'helllooooo' (bing-chat³) [Style: balanced]
+[30;1m2023-08-26 11:54:43[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: 'messages'
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 61, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 209, in ask_stream
+    response["item"]["messages"][-1]["contentOrigin"]
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'messages'[0m
+[30;1m2023-08-26 11:55:07[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mcinnamongold#0[0m : 'bing are you there' (bing-chat³) [Style: balanced]
+[30;1m2023-08-26 11:55:19[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: 'messages'
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 61, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 209, in ask_stream
+    response["item"]["messages"][-1]["contentOrigin"]
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'messages'[0m
+[30;1m2023-08-26 11:55:47[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31msplittic#0 set Bing Cookies successful[0m
+[30;1m2023-08-26 11:55:52[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Hellooooo 👋' (bing-chat³) [Style: balanced]
+[30;1m2023-08-26 11:59:37[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mcinnamongold#0 delete Cookies[0m
+[30;1m2023-08-26 12:00:09[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mcinnamongold#0 set Bing Cookies successful[0m
+[30;1m2023-08-26 12:00:19[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mcinnamongold#0[0m : 'helo bing' (bing-chat³) [Style: balanced]
+[30;1m2023-08-26 12:00:59[0m [34;1mINFO    [0m [35msrc.response[0m -> [31mcinnamongold#0[0m : 'How do I make pancakes from scratch?' (bing-chat³) [Style: balanced] [button]
+[30;1m2023-08-26 12:02:46[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mcinnamongold#0[0m : 'can you generate an image of a robot hitting the griddy' (bing-chat³) [Style: balanced]
+[30;1m2023-08-26 12:02:58[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'generate me an image of a cat' (bing-chat³) [Style: balanced]
+[30;1m2023-08-26 12:03:37[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : 'cool iamges :)' (bing-chat³) [Style: balanced]
+[30;1m2023-08-26 12:04:26[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : 'Can you show me some cool images here?' (bing-chat³) [Style: balanced] [button]
+[30;1m2023-08-26 12:04:38[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : 'Hi' (bing-chat³) [Style: balanced]
+[30;1m2023-08-26 12:05:30[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : 'so what you doing rn?' (bing-chat³) [Style: balanced]
+[30;1m2023-08-26 12:05:50[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mcinnamongold#0[0m : 'if i have 23 trees, and i plant 853 more trees, how many trees do i have' (bing-chat³) [Style: balanced]
+[30;1m2023-08-26 12:10:20[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mchris.zlrr#0 set Bing Cookies successful[0m
+[30;1m2023-08-26 12:11:10[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mchris.zlrr#0[0m : 'generate an image of a cat with a hat' (bing-chat) [Style: balanced]
+[30;1m2023-08-26 12:12:06[0m [34;1mINFO    [0m [35msrc.response[0m -> [31mchris.zlrr#0[0m : 'Can you add a background to the image?' (bing-chat) [Style: balanced] [button]
+[30;1m2023-08-26 12:12:22[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mcinnamongold#0[0m : 'generate concept art of a platform that helps you travel throughout the solar system to get to any planet' (bing-chat³) [Style: balanced]
+[30;1m2023-08-26 12:12:42[0m [34;1mINFO    [0m [35msrc.response[0m -> [31mchris.zlrr#0[0m : 'Make it look like the cat is on top of a mountain' (bing-chat) [Style: balanced] [button]
+[30;1m2023-08-26 12:13:54[0m [34;1mINFO    [0m [35msrc.response[0m -> [31mchris.zlrr#0[0m : 'Can you add a bird in the image?' (bing-chat) [Style: balanced] [button]
+[30;1m2023-08-26 12:14:20[0m [34;1mINFO    [0m [35msrc.response[0m -> [31mcinnamongold#0[0m : 'Can you add some spaceships to the platform?' (bing-chat³) [Style: balanced] [button]
+[30;1m2023-08-26 12:14:28[0m [34;1mINFO    [0m [35msrc.response[0m -> [31mchris.zlrr#0[0m : 'A parrot would be nice' (bing-chat) [Style: balanced] [button]
+[30;1m2023-08-26 12:17:12[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mchris.zlrr#0[0m : 'batman saving gotham' (bing-chat³) [Style: balanced]
+[30;1m2023-08-26 12:18:08[0m [34;1mINFO    [0m [35msrc.response[0m -> [31mchris.zlrr#0[0m : 'Make Batman's cape longer' (bing-chat³) [Style: balanced] [button]
+[30;1m2023-08-26 12:27:11[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mcinnamongold#0[0m : 'generate concept art of a car flying toward a parking garage on the moon with the earth in view' (bing-chat³) [Style: balanced]
+[30;1m2023-08-26 12:29:39[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mcinnamongold#0[0m : 'generate a photo of a single person mopping a mall at nighttime' (bing-chat³) [Style: balanced]
+[30;1m2023-08-26 12:30:45[0m [34;1mINFO    [0m [35msrc.response[0m -> [31mcinnamongold#0[0m : 'Can you add some stores in the background?' (bing-chat³) [Style: balanced] [button]
+[30;1m2023-08-26 12:51:50[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 13:07:36[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 13:08:32[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 13:11:28[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 13:12:50[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 13:13:47[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 13:19:06[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 13:23:24[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 13:25:27[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 13:26:07[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 13:27:29[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 13:28:54[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 13:29:47[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 13:31:50[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 13:38:12[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 13:39:44[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 13:41:36[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 13:43:06[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 13:45:39[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 13:49:48[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31msplittic#0 set Bing Cookies successful[0m
+[30;1m2023-08-26 13:49:52[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Generate me an image of a cat that wears sunglasses, a green hat and which has blue eyes and a yellow nose' (🤖｜bing) [Style: balanced]
+[30;1m2023-08-26 13:50:53[0m [34;1mINFO    [0m [35msrc.response[0m -> [31msplittic#0[0m : 'Can you change the color of the hat?' (🤖｜bing) [Style: balanced] [button]
+[30;1m2023-08-26 13:51:29[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : 'red' (🤖｜bing) [Style: balanced]
+[30;1m2023-08-26 13:56:32[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 13:59:18[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 14:01:39[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 14:07:01[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 14:11:35[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 14:13:54[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 14:17:40[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 14:18:47[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 14:20:02[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 14:21:19[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 14:22:28[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 14:26:07[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 14:28:31[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 14:31:45[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 14:33:29[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 14:33:52[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 14:35:23[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 14:39:28[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 14:39:53[0m [31mERROR   [0m [35mcogs.edgegpt[0m -> Bing reset failed.
+[31mTraceback (most recent call last):
+  File "/home/container/cogs/edgegpt.py", line 67, in reset
+    await users_chatbot[user_id].reset()
+          ~~~~~~~~~~~~~^^^^^^^^^
+KeyError: 916332538342039572[0m
+[30;1m2023-08-26 14:41:51[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 14:56:23[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 14:59:56[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 15:04:56[0m [33;1mWARNING [0m [35mcogs.event[0m -> [31mConversation style has been successfully switch to Creative[0m
+[30;1m2023-08-26 15:11:03[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 15:12:19[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 17:53:47[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31meddie1701#3549 set Bing Cookies successful[0m
+[30;1m2023-08-26 17:54:41[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31meddie1701#3549[0m : 'Generate an image of A fluffy white cat with big blue eyes, lit by soft, diffused light from a window, in warm, pastel colors.' (ai-bots) [Style: balanced]
+[30;1m2023-08-26 17:55:02[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 61, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 198, in ask_stream
+    raise Exception(
+Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
+[30;1m2023-08-26 18:32:14[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31meddie1701#3549 set Bing Cookies successful[0m
+[30;1m2023-08-26 18:32:40[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31meddie1701#3549[0m : 'Generate image of a cat' (🤖｜bing) [Style: balanced]
+[30;1m2023-08-26 18:33:00[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 61, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 198, in ask_stream
+    raise Exception(
+Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
+[30;1m2023-08-26 18:35:00[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31meddie1701#3549[0m : 'hello' (🤖｜bing) [Style: balanced]
+[30;1m2023-08-26 18:35:20[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: 'messages'
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 61, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 209, in ask_stream
+    response["item"]["messages"][-1]["contentOrigin"]
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'messages'[0m
+[30;1m2023-08-26 20:04:56[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-26 20:29:57[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31meddie1701#3549 set Bing Cookies successful[0m
+[30;1m2023-08-26 20:30:25[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31meddie1701#3549[0m : 'hello, what is the weather in Paris France?' (ai-bots) [Style: balanced]
+[30;1m2023-08-26 20:31:43[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31meddie1701#3549[0m : 'generate image of a lemon character with a sign that says "MATTVIDPRO"' (🤖｜bing) [Style: balanced]
+[30;1m2023-08-26 20:47:53[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mcinnamongold#0[0m : 'If the  bot doesn't work, follow the steps in <#1145156784630280283>' (bing-chat) [Style: balanced]
+[30;1m2023-08-27 00:21:57[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31meddie1701#3549[0m : 'generate an image of ragdoll cat' (ai-bots) [Style: balanced]
+[30;1m2023-08-27 00:23:56[0m [34;1mINFO    [0m [35msrc.response[0m -> [31meddie1701#3549[0m : 'Can you make the cat wear a bowtie?' (ai-bots) [Style: balanced] [button]
+[30;1m2023-08-27 15:26:44[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31momega_swe#0 set Bing Cookies successful[0m
+[30;1m2023-08-27 15:28:30[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31momega_swe#0[0m : 'Generate a image of a cat' (🤖｜bing) [Style: balanced]
+[30;1m2023-08-27 15:28:51[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 61, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 198, in ask_stream
+    raise Exception(
+Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
+[30;1m2023-08-27 15:29:24[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31momega_swe#0 delete Cookies[0m
+[30;1m2023-08-27 23:39:28[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31m9039#0[0m : 'Usa a  mientras' (✨│general) [Style: balanced]
+[30;1m2023-08-27 23:39:49[0m [31mERROR   [0m [35mcogs.event[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
+[31mTraceback (most recent call last):
+  File "/home/container/cogs/event.py", line 120, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 198, in ask_stream
+    raise Exception(
+Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
+[30;1m2023-08-28 09:42:38[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-28 09:43:22[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-28 09:45:38[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-28 09:48:49[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-28 09:50:57[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-28 09:53:48[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-28 09:56:33[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-28 10:00:24[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-28 10:01:31[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-28 10:02:28[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-28 10:04:04[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-28 11:00:26[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-28 11:31:13[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-28 11:34:55[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-28 11:37:42[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-28 11:40:19[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-28 12:01:56[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-28 12:08:38[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-28 12:10:25[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-28 13:16:25[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-28 13:27:56[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-28 14:18:55[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-28 14:21:36[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-28 15:12:00[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-28 15:14:46[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-28 15:36:45[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mzitruszitrone#0 set Bing Cookies successful[0m
+[30;1m2023-08-28 15:36:56[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mzitruszitrone#0[0m : 'hey' (bing-chat) [Style: balanced]
+[30;1m2023-08-28 15:37:17[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 61, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 198, in ask_stream
+    raise Exception(
+Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
+[30;1m2023-08-28 15:40:02[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mzitruszitrone#0 delete Cookies[0m
+[30;1m2023-08-28 15:40:14[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mzitruszitrone#0 set Bing Cookies successful[0m
+[30;1m2023-08-28 15:40:21[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mzitruszitrone#0[0m : 'Hey' (bing-chat) [Style: balanced]
+[30;1m2023-08-28 15:40:42[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: Throttled: Request is throttled.
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 61, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 198, in ask_stream
+    raise Exception(
+Exception: Throttled: Request is throttled.[0m
+[30;1m2023-08-28 15:41:01[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mzitruszitrone#0[0m : 'Hey' (bing-chat) [Style: balanced]
+[30;1m2023-08-28 15:41:22[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: Throttled: Request is throttled.
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 61, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 198, in ask_stream
+    raise Exception(
+Exception: Throttled: Request is throttled.[0m
+[30;1m2023-08-28 15:46:42[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-28 19:18:54[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-28 19:20:21[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-29 07:18:46[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-29 07:23:23[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-29 07:24:57[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-29 07:26:31[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-29 07:28:40[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-29 07:35:08[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-29 07:36:15[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-29 07:50:54[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-29 07:51:34[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-29 07:54:25[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-29 07:56:02[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-29 07:57:36[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-29 07:58:10[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-29 07:59:37[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-29 07:59:54[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-29 08:01:43[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-29 08:02:21[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-29 09:46:34[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-29 09:49:27[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-29 09:51:44[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-29 10:11:36[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-29 10:27:39[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-29 10:35:08[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-29 14:10:37[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-29 14:12:48[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-29 20:26:49[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-29 20:28:48[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-29 20:30:05[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-29 20:30:52[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-29 20:31:11[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-29 20:33:43[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-29 20:36:26[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-29 20:41:24[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-29 20:45:53[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-29 20:47:29[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-30 01:51:35[0m [33;1mWARNING [0m [35mcogs.event[0m -> [31mConversation style has been successfully switch to Creative[0m
+[30;1m2023-08-30 01:51:36[0m [33;1mWARNING [0m [35mcogs.event[0m -> [31mConversation style has been successfully switch to Precise[0m
+[30;1m2023-08-30 01:51:42[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mizih#0[0m : 'hi' (💬》general-chat) [Style: precise]
+[30;1m2023-08-30 01:52:03[0m [31mERROR   [0m [35mcogs.event[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
+[31mTraceback (most recent call last):
+  File "/home/container/cogs/event.py", line 118, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.precise, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 198, in ask_stream
+    raise Exception(
+Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
+[30;1m2023-08-30 01:52:06[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mizih#0[0m : 'WAKE THE FUCK UP' (💬》general-chat) [Style: precise]
+[30;1m2023-08-30 01:52:08[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mphantom0777_2.0#0[0m : 'hi' (💬》general-chat) [Style: precise]
+[30;1m2023-08-30 01:52:27[0m [31mERROR   [0m [35mcogs.event[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
+[31mTraceback (most recent call last):
+  File "/home/container/cogs/event.py", line 118, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.precise, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 198, in ask_stream
+    raise Exception(
+Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
+[30;1m2023-08-30 01:52:46[0m [31mERROR   [0m [35mcogs.event[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
+[31mTraceback (most recent call last):
+  File "/home/container/cogs/event.py", line 118, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.precise, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 198, in ask_stream
+    raise Exception(
+Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
+[30;1m2023-08-30 01:53:07[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31maviation4_yt#0[0m : 'are you a robot' (💬》general-chat) [Style: precise]
+[30;1m2023-08-30 01:53:28[0m [31mERROR   [0m [35mcogs.event[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
+[31mTraceback (most recent call last):
+  File "/home/container/cogs/event.py", line 118, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.precise, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 198, in ask_stream
+    raise Exception(
+Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
+[30;1m2023-08-30 06:26:21[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mrodentrider#0[0m : '!delete' (💬｜chat-en) [Style: precise]
+[30;1m2023-08-30 06:26:42[0m [31mERROR   [0m [35mcogs.event[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
+[31mTraceback (most recent call last):
+  File "/home/container/cogs/event.py", line 118, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.precise, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 198, in ask_stream
+    raise Exception(
+Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
+[30;1m2023-08-30 06:27:53[0m [33;1mWARNING [0m [35mcogs.event[0m -> [31mConversation style has been successfully switch to Creative[0m
+[30;1m2023-08-30 09:27:22[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mashwinmhaskar#0 set Bing Cookies successful[0m
+[30;1m2023-08-30 09:27:49[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mConversation style has been successfully switch to creative[0m
+[30;1m2023-08-30 09:28:37[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mashwinmhaskar#0[0m : 'Create an image of a cute kitten in a basket, photorealistic' (ai-bots) [Style: creative]
+[30;1m2023-08-30 09:28:58[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 57, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.creative, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 198, in ask_stream
+    raise Exception(
+Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
+[30;1m2023-08-30 09:29:58[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mashwinmhaskar#0[0m : 'generate a image of a kitten' (bing-chat) [Style: creative]
+[30;1m2023-08-30 09:30:19[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 57, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.creative, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 198, in ask_stream
+    raise Exception(
+Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
+[30;1m2023-08-30 09:32:04[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mashwinmhaskar#0 delete Cookies[0m
+[30;1m2023-08-30 11:29:32[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31msplittic#0 set Bing Cookies successful[0m
+[30;1m2023-08-30 11:29:39[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Hi' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 11:29:59[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 61, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 198, in ask_stream
+    raise Exception(
+Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
+[30;1m2023-08-30 11:39:25[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-30 11:40:51[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31msplittic#0 set Bing Cookies successful[0m
+[30;1m2023-08-30 11:40:56[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Hi' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 11:41:18[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 61, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 198, in ask_stream
+    raise Exception(
+Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
+[30;1m2023-08-30 11:48:14[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31msplittic#0 set Bing Cookies successful[0m
+[30;1m2023-08-30 11:48:19[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Hi' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 11:48:39[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 61, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 198, in ask_stream
+    raise Exception(
+Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
+[30;1m2023-08-30 11:49:01[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31msplittic#0 set Bing Cookies successful[0m
+[30;1m2023-08-30 11:49:03[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Hi' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 11:50:01[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31msplittic#0 set Bing Cookies successful[0m
+[30;1m2023-08-30 11:50:04[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Hi' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 11:50:25[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 61, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 198, in ask_stream
+    raise Exception(
+Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
+[30;1m2023-08-30 11:57:43[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31msplittic#0 set Bing Cookies successful[0m
+[30;1m2023-08-30 11:57:47[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Hi' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 11:58:07[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 61, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 198, in ask_stream
+    raise Exception(
+Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
+[30;1m2023-08-30 12:00:20[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Hi' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 12:00:40[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 61, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 198, in ask_stream
+    raise Exception(
+Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
+[30;1m2023-08-30 12:04:28[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-30 12:09:09[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-30 12:10:40[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31msplittic#0 set Bing Cookies successful[0m
+[30;1m2023-08-30 12:10:44[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Hi' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 12:13:11[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-30 12:13:33[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31msplittic#0 set Bing Cookies successful[0m
+[30;1m2023-08-30 12:14:29[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-30 12:14:48[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31msplittic#0 set Bing Cookies successful[0m
+[30;1m2023-08-30 12:14:51[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Hi' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 12:15:32[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-30 12:17:24[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31msplittic#0 set Bing Cookies successful[0m
+[30;1m2023-08-30 12:17:26[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Hi' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 12:18:27[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'What can you do?' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 12:18:36[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mrorotuck#0 set Bing Cookies successful[0m
+[30;1m2023-08-30 12:18:40[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mrorotuck#0[0m : 'hi' (bing-chat²) [Style: balanced]
+[30;1m2023-08-30 12:19:37[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mrorotuck#0[0m : 'make me a cool image. do anything.' (bing-chat²) [Style: balanced]
+[30;1m2023-08-30 12:19:48[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : 'Please make me an image' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 12:20:25[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : 'Can you draw a landscape?' (bing-chat) [Style: balanced] [button]
+[30;1m2023-08-30 12:20:42[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mConversation style has been successfully switch to creative[0m
+[30;1m2023-08-30 12:21:04[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mrorotuck#0[0m : 'make me a image of a cat wearing sunglasses. and put whatever you want in it\' (bing-chat²) [Style: balanced]
+[30;1m2023-08-30 12:21:07[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : 'Draw me a mountain landscape' (bing-chat) [Style: balanced] [button]
+[30;1m2023-08-30 12:21:28[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mrorotuck#0[0m : 'make me a image of a cat wearing sunglasses. and put whatever you want in it\' (bing-chat²) [Style: balanced]
+[30;1m2023-08-30 12:21:35[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mrorotuck#0[0m : 'make me a image of a cat wearing sunglasses. and put whatever you want in it\' (bing-chat²) [Style: creative]
+[30;1m2023-08-30 12:22:11[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : 'Draw me a snowy mountain landscape' (bing-chat) [Style: balanced] [button]
+[30;1m2023-08-30 12:22:20[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: 'adaptiveCards'
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 57, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.creative, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 202, in ask_stream
+    cache = response["item"]["messages"][1]["adaptiveCards"][0][
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: 'adaptiveCards'[0m
+[30;1m2023-08-30 12:22:48[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mrorotuck#0[0m : 'any kind. idc' (bing-chat²) [Style: balanced]
+[30;1m2023-08-30 12:24:14[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : 'show it' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 12:24:50[0m [31mERROR   [0m [35mcogs.event[0m -> Error while sending message: 'adaptiveCards'
+[31mTraceback (most recent call last):
+  File "/home/container/cogs/event.py", line 120, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 202, in ask_stream
+    cache = response["item"]["messages"][1]["adaptiveCards"][0][
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: 'adaptiveCards'[0m
+[30;1m2023-08-30 12:25:18[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mBing has been successfully reset[0m
+[30;1m2023-08-30 12:25:22[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mrorotuck#0[0m : 'show it' (bing-chat²) [Style: balanced]
+[30;1m2023-08-30 12:25:43[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : 'Hi , generate me an image of a cat please' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 12:25:59[0m [31mERROR   [0m [35mcogs.event[0m -> Error while sending message: 'adaptiveCards'
+[31mTraceback (most recent call last):
+  File "/home/container/cogs/event.py", line 120, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 202, in ask_stream
+    cache = response["item"]["messages"][1]["adaptiveCards"][0][
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: 'adaptiveCards'[0m
+[30;1m2023-08-30 12:26:09[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : 'Hi' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 12:26:26[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mConversation style has been successfully switch to creative[0m
+[30;1m2023-08-30 12:26:55[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : 'a cartoon cat pleas34e' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 12:26:55[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mrorotuck#0[0m : 'heyyy whats up! make me a image of a city at midnight. add what ever YOU want' (bing-chat²) [Style: creative]
+[30;1m2023-08-30 12:27:19[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : 'How about generating an image of a dog?' (bing-chat) [Style: balanced] [button]
+[30;1m2023-08-30 12:27:30[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: 'adaptiveCards'
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 57, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.creative, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 202, in ask_stream
+    cache = response["item"]["messages"][1]["adaptiveCards"][0][
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: 'adaptiveCards'[0m
+[30;1m2023-08-30 12:28:15[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mBing has been successfully reset[0m
+[30;1m2023-08-30 12:28:19[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mrorotuck#0 set Bing Cookies successful[0m
+[30;1m2023-08-30 12:28:28[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mrorotuck#0[0m : 'heyyy whats up! make me a image of a city at midnight. add what ever YOU want' (bing-chat²) [Style: balanced]
+[30;1m2023-08-30 12:28:51[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : 'Just any' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 12:29:47[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : 'ok, show pls' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 12:29:50[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mrorotuck#0[0m : 'wow!!!!!!!!!!!! so cool! make me a image of what ever you want.' (bing-chat²) [Style: balanced]
+[30;1m2023-08-30 12:30:22[0m [31mERROR   [0m [35mcogs.event[0m -> Error while sending message: 'adaptiveCards'
+[31mTraceback (most recent call last):
+  File "/home/container/cogs/event.py", line 120, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 202, in ask_stream
+    cache = response["item"]["messages"][1]["adaptiveCards"][0][
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: 'adaptiveCards'[0m
+[30;1m2023-08-30 12:30:32[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31msplittic#0 set Bing Cookies successful[0m
+[30;1m2023-08-30 12:30:42[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'show me a cat pls' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 12:31:23[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: 'text'
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 61, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 202, in ask_stream
+    cache = response["item"]["messages"][1]["adaptiveCards"][0][
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'text'[0m
+[30;1m2023-08-30 12:32:08[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'How are you?' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 12:34:23[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'generate me a cat image pls' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 12:35:03[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: 'text'
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 61, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 202, in ask_stream
+    cache = response["item"]["messages"][1]["adaptiveCards"][0][
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'text'[0m
+[30;1m2023-08-30 12:35:14[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mrorotuck#0[0m : 'what is better bing or google??' (bing-chat²) [Style: balanced]
+[30;1m2023-08-30 12:37:04[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-30 12:37:21[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31msplittic#0 set Bing Cookies successful[0m
+[30;1m2023-08-30 12:37:21[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'generate me image of cat' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 12:38:11[0m [34;1mINFO    [0m [35msrc.response[0m -> [31msplittic#0[0m : 'Can you make it a cartoon?' (bing-chat) [Style: balanced] [button]
+[30;1m2023-08-30 12:39:16[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : 'give it blue eyes' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 12:40:51[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : 'Make it breathe fire' (bing-chat) [Style: balanced] [button]
+[30;1m2023-08-30 12:41:28[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : 'Can you add wings?' (bing-chat) [Style: balanced] [button]
+[30;1m2023-08-30 12:42:23[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : 'Make it smaller' (bing-chat) [Style: balanced] [button]
+[30;1m2023-08-30 12:43:13[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : 'Change the color of wings to green' (bing-chat) [Style: balanced] [button]
+[30;1m2023-08-30 12:43:15[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mrorotuck#0 set Bing Cookies successful[0m
+[30;1m2023-08-30 12:43:28[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mrorotuck#0[0m : 'can you gen a image of a cat for me?' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 12:43:54[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mrorotuck#0[0m : 'can you gen a image of a cat for me?' (bing-chat²) [Style: balanced]
+[30;1m2023-08-30 12:44:26[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : 'Change the color of eyes to red' (bing-chat) [Style: balanced] [button]
+[30;1m2023-08-30 12:45:06[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mrorotuck#0[0m : 'Make it look like Garfield' (bing-chat) [Style: balanced] [button]
+[30;1m2023-08-30 12:45:27[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mrorotuck#0[0m : 'make it have blue eyes.' (bing-chat²) [Style: balanced]
+[30;1m2023-08-30 12:46:33[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mrorotuck#0[0m : 'Make it look like Tom' (bing-chat) [Style: balanced] [button]
+[30;1m2023-08-30 12:52:44[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-30 12:54:06[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-30 12:54:11[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31msplittic#0 set Bing Cookies successful[0m
+[30;1m2023-08-30 12:54:17[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Hi' (bing-chat²) [Style: balanced]
+[30;1m2023-08-30 12:55:46[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-30 12:55:52[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31msplittic#0 set Bing Cookies successful[0m
+[30;1m2023-08-30 12:55:55[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Hi' (bing-chat²) [Style: balanced]
+[30;1m2023-08-30 12:56:30[0m [34;1mINFO    [0m [35msrc.response[0m -> [31msplittic#0[0m : 'How do I make an apple pie?' (bing-chat²) [Style: balanced] [button]
+[30;1m2023-08-30 13:01:55[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31macrocutter#0[0m : 'woke bing' (bing-chat²) [Style: balanced]
+[30;1m2023-08-30 13:02:14[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mmikelue#0[0m : 'hi' (bing-chat²) [Style: balanced]
+[30;1m2023-08-30 13:02:29[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mmikelue#0[0m : 'What is the weather like in Adelaide?' (bing-chat²) [Style: balanced] [button]
+[30;1m2023-08-30 13:02:51[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mmikelue#0[0m : 'What is the weather like in Adelaide?' (bing-chat²) [Style: balanced] [button]
+[30;1m2023-08-30 13:04:20[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31macrocutter#0 set Bing Cookies successful[0m
+[30;1m2023-08-30 13:04:29[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31macrocutter#0[0m : 'how do you make a discord slash command' (bing-chat²) [Style: balanced]
+[30;1m2023-08-30 13:05:58[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mmikelue#0 set Bing Cookies successful[0m
+[30;1m2023-08-30 13:06:07[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mmikelue#0[0m : 'write a play about aws but Jack breaks the server' (bing-chat³) [Style: balanced]
+[30;1m2023-08-30 13:06:45[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mmikelue#0[0m : 'I want 5 characters in the play.' (bing-chat³) [Style: balanced] [button]
+[30;1m2023-08-30 13:08:18[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mBing has been successfully reset[0m
+[30;1m2023-08-30 13:08:23[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mmikelue#0[0m : 'write a play about aws but Jack breaks the server' (bing-chat³) [Style: balanced]
+[30;1m2023-08-30 13:09:46[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mmikelue#0[0m : 'I want 5 characters in the play.' (bing-chat³) [Style: balanced] [button]
+[30;1m2023-08-30 13:10:41[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mBing has been successfully reset[0m
+[30;1m2023-08-30 13:10:52[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mmikelue#0[0m : 'write a play about aws but Jack breaks the server' (bing-chat³) [Style: balanced]
+[30;1m2023-08-30 13:13:27[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mBing has been successfully reset[0m
+[30;1m2023-08-30 13:13:35[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mmikelue#0[0m : 'write a play about aws but Jack breaks the server' (bing-chat³) [Style: balanced]
+[30;1m2023-08-30 13:15:58[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mmikelue#0[0m : 'do one for Linode' (bing-chat³) [Style: balanced]
+[30;1m2023-08-30 13:17:24[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mBing has been successfully reset[0m
+[30;1m2023-08-30 13:17:33[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mmikelue#0[0m : 'write a play about aws but Jack breaks the server' (bing-chat³) [Style: balanced]
+[30;1m2023-08-30 13:19:09[0m [34;1mINFO    [0m [35msrc.response[0m -> [31mmikelue#0[0m : 'What is the difference between EC2 and S3?' (bing-chat³) [Style: balanced] [button]
+[30;1m2023-08-30 13:20:16[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mBing has been successfully reset[0m
+[30;1m2023-08-30 13:20:24[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mmikelue#0[0m : 'write a play about aws but Jack breaks the server' (bing-chat³) [Style: balanced]
+[30;1m2023-08-30 13:22:38[0m [34;1mINFO    [0m [35msrc.response[0m -> [31mmikelue#0[0m : 'Can you explain more about AWS?' (bing-chat³) [Style: balanced] [button]
+[30;1m2023-08-30 13:24:01[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mBing has been successfully reset[0m
+[30;1m2023-08-30 13:24:04[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mmikelue#0[0m : '## Dead Chat Messages
+`2023-08_deadchat_simple_prompt_guild` - <@&1106559823702659103> 
+
+Discord intends to address low activity on non-community servers by adding a feature that reminds members when chat is dead. After clicking the button in the context bar of the server, one of the selected messages will be displayed in chats and the user will be able to start a conversation by sending a photo or sticker. 
+
+> "It's quiet in here.", 
+> "Feels dead in here.", 
+> "It's quiet...too quiet...", 
+> "Where is everyone?", 
+> "WAKEY WAKEY EVERYBODY", 
+> "Hello?"' (bing-chat³) [Style: balanced]
+[30;1m2023-08-30 13:24:41[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: 400 Bad Request (error code: 50035): Invalid Form Body
+In embeds.1.image.url: Not a well formed URL.
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 102, in send_message
+    await interaction.followup.send(response, view=MyView(interaction, chatbot, conversation_style, suggest_responses), embeds=images_embed, wait=True)
+  File "/home/container/.local/lib/python3.11/site-packages/discord/webhook/async_.py", line 1800, in send
+    data = await adapter.execute_webhook(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/discord/webhook/async_.py", line 221, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In embeds.1.image.url: Not a well formed URL.[0m
+[30;1m2023-08-30 13:47:56[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mzitruszitrone#0 set Bing Cookies successful[0m
+[30;1m2023-08-30 13:48:02[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mzitruszitrone#0[0m : 'hey' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 14:23:04[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mtezdread#0 set Bing Cookies successful[0m
+[30;1m2023-08-30 14:23:24[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mtezdread#0[0m : 'Give me a top 10 of horror movies in the last 20 years' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 16:10:08[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-30 16:10:46[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-30 16:49:36[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-30 16:52:56[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-30 16:54:49[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-30 16:56:00[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-30 17:06:03[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mxgblhbj713#4445 set Bing Cookies successful[0m
+[30;1m2023-08-30 17:06:46[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mxgblhbj713#4445[0m : 'https://media.discordapp.net/attachments/1087985853973921847/1146548243354890291/received_234596205783536.jpg turn this into a watercolor painting' (general) [Style: balanced]
+[30;1m2023-08-30 17:07:29[0m [34;1mINFO    [0m [35msrc.response[0m -> [31mxgblhbj713#4445[0m : 'Yes, please do that.' (general) [Style: balanced] [button]
+[30;1m2023-08-30 17:08:21[0m [34;1mINFO    [0m [35msrc.response[0m -> [31mxgblhbj713#4445[0m : 'I meant the image I sent you.' (general) [Style: balanced] [button]
+[30;1m2023-08-30 17:09:35[0m [34;1mINFO    [0m [35msrc.response[0m -> [31mxgblhbj713#4445[0m : 'Yes, please do that.' (general) [Style: balanced] [button]
+[30;1m2023-08-30 17:10:59[0m [34;1mINFO    [0m [35msrc.response[0m -> [31mxgblhbj713#4445[0m : 'What are some other painting styles?' (general) [Style: balanced] [button]
+[30;1m2023-08-30 17:13:53[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mxgblhbj713#4445[0m : 'https://media.discordapp.net/attachments/1087985853973921847/1146548243354890291/received_234596205783536.jpg turn the provided image into an Impressionist oil painting' (general) [Style: balanced]
+[30;1m2023-08-30 17:14:30[0m [34;1mINFO    [0m [35msrc.response[0m -> [31mxgblhbj713#4445[0m : 'Yes, please do that.' (general) [Style: balanced] [button]
+[30;1m2023-08-30 19:04:07[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31msuperbowl_81698#0 set Bing Cookies successful[0m
+[30;1m2023-08-30 19:33:07[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mrobbygtv#0 set Bing Cookies successful[0m
+[30;1m2023-08-30 19:33:27[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mrobbygtv#0[0m : 'Hello' (🤖｜bing) [Style: balanced]
+[30;1m2023-08-30 21:29:59[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-30 21:31:46[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-30 21:34:38[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-30 21:40:13[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-30 21:53:15[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-30 21:55:01[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-30 21:56:22[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-30 21:59:39[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31msuperbowl_81698#0 set Bing Cookies successful[0m
+[30;1m2023-08-30 22:00:03[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msuperbowl_81698#0[0m : 'Make me an image of a 3d model of a laptop' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 22:01:59[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-30 22:06:22[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msuperbowl_81698#0[0m : 'now a dog' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 22:49:37[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-30 22:58:53[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-30 23:01:59[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-30 23:02:54[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-30 23:04:11[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-30 23:06:11[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-30 23:09:11[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-08-30 23:42:24[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mashwinmhaskar#0 set Bing Cookies successful[0m
+[30;1m2023-08-30 23:42:59[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mashwinmhaskar#0[0m : 'generate me a image of a cute cat in a basket' (pvt-ltd2) [Style: balanced]
+[30;1m2023-08-30 23:43:41[0m [34;1mINFO    [0m [35msrc.response[0m -> [31mashwinmhaskar#0[0m : 'Can you add a butterfly?' (pvt-ltd2) [Style: balanced] [button]
+[30;1m2023-08-30 23:44:51[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mashwinmhaskar#0[0m : 'add a dog as a companion to her' (pvt-ltd2) [Style: balanced]
+[30;1m2023-08-30 23:45:42[0m [34;1mINFO    [0m [35msrc.response[0m -> [31mashwinmhaskar#0[0m : 'Can you change the breed of dog?' (pvt-ltd2) [Style: balanced] [button]
+[30;1m2023-08-30 23:45:51[0m [34;1mINFO    [0m [35msrc.response[0m -> [31mashwinmhaskar#0[0m : 'German Shepherd' (pvt-ltd2) [Style: balanced] [button]
+[30;1m2023-08-30 23:48:34[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msuperbowl_81698#0[0m : 'Hi 👋' (Allgemein) [Style: balanced]
+[30;1m2023-08-30 23:49:11[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msuperbowl_81698#0[0m : 'Can you make me a 3d asset of a table? generate the image please' (Allgemein) [Style: balanced]
+[30;1m2023-08-30 23:49:54[0m [31mERROR   [0m [35mcogs.event[0m -> Error while sending message: 'text'
+[31mTraceback (most recent call last):
+  File "/home/container/cogs/event.py", line 120, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 202, in ask_stream
+    cache = response["item"]["messages"][1]["adaptiveCards"][0][
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'text'[0m
+[30;1m2023-08-30 23:50:06[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msuperbowl_81698#0[0m : 'Can you make me a 3d asset of a table  ? generate the image please' (Allgemein) [Style: balanced]
+[30;1m2023-08-30 23:50:52[0m [31mERROR   [0m [35mcogs.event[0m -> Error while sending message: 'text'
+[31mTraceback (most recent call last):
+  File "/home/container/cogs/event.py", line 120, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 202, in ask_stream
+    cache = response["item"]["messages"][1]["adaptiveCards"][0][
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'text'[0m
+[30;1m2023-08-30 23:51:04[0m [31mERROR   [0m [35mcogs.edgegpt[0m -> Bing reset failed.
+[31mTraceback (most recent call last):
+  File "/home/container/cogs/edgegpt.py", line 71, in reset
+    await users_chatbot[user_id].reset()
+          ~~~~~~~~~~~~~^^^^^^^^^
+KeyError: 1145676460225478686[0m
+[30;1m2023-08-30 23:51:10[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msuperbowl_81698#0[0m : 'Can you make me a 3d asset of a table  ? generate the image please' (Allgemein) [Style: balanced]
+[30;1m2023-08-30 23:51:57[0m [31mERROR   [0m [35mcogs.event[0m -> Error while sending message: 'text'
+[31mTraceback (most recent call last):
+  File "/home/container/cogs/event.py", line 120, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 202, in ask_stream
+    cache = response["item"]["messages"][1]["adaptiveCards"][0][
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'text'[0m
+[30;1m2023-08-30 23:52:05[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31msuperbowl_81698#0 set Bing Cookies successful[0m
+[30;1m2023-08-30 23:52:17[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msuperbowl_81698#0[0m : 'please generate me a 3d asset of a table' (Allgemein) [Style: balanced]
+[30;1m2023-08-30 23:54:23[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mrorotuck#0 set Bing Cookies successful[0m
+[30;1m2023-08-30 23:54:47[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mrorotuck#0[0m : 'add  more stuff to this and make this sad  and longer "dad? is that you?? its been so long. i-i really really r-r-really missed you... why- why did you leave us. i- i missed you.. dad why did you leave us? mom cried so much.. i-i am so angry and s-s-sad. i cried for so long.." and add stutters.' (Allgemein) [Style: balanced]
+[30;1m2023-08-30 23:55:43[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mrorotuck#0[0m : 'make it longer' (Allgemein) [Style: balanced]
+[30;1m2023-08-30 23:57:31[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mrorotuck#0[0m : 'make this text longer "Dad? Is that you? It's been so long. I-I really, really, r-r-really missed you... Why did you leave us? Mom cried so much... I-I am so angry and s-s-sad. I cried for so long... I just wish you were here with us. 😢"' (Allgemein) [Style: balanced]
+[30;1m2023-08-30 23:57:57[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msuperbowl_81698#0[0m : 'Can you generate a poem?' (Allgemein) [Style: balanced] [button]
+[30;1m2023-08-30 23:59:27[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msuperbowl_81698#0[0m : 'Ok , please show me a cat img' (Allgemein) [Style: balanced]
+[30;1m2023-08-31 00:00:26[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msuperbowl_81698#0[0m : 'make it a 3d asset please' (Allgemein) [Style: balanced]
+[30;1m2023-08-31 00:01:06[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msuperbowl_81698#0[0m : 'How do I use GET3D?' (Allgemein) [Style: balanced] [button]
+[30;1m2023-08-31 00:01:16[0m [31mERROR   [0m [35mcogs.event[0m -> Error while sending message: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.1.label: Must be 80 or fewer in length.
+[31mTraceback (most recent call last):
+  File "/home/container/cogs/event.py", line 178, in send_message
+    await message.followup.send(response, view=MyView(chatbot, suggest_responses), wait=True)
+  File "/home/container/.local/lib/python3.11/site-packages/discord/webhook/async_.py", line 1800, in send
+    data = await adapter.execute_webhook(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/discord/webhook/async_.py", line 221, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.1.label: Must be 80 or fewer in length.[0m
+[30;1m2023-08-31 00:01:35[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msuperbowl_81698#0[0m : 'repeat that please' (Allgemein) [Style: balanced]
+[30;1m2023-08-31 00:02:04[0m [31mERROR   [0m [35mcogs.event[0m -> Error while sending message: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.1.label: Must be 80 or fewer in length.
+[31mTraceback (most recent call last):
+  File "/home/container/cogs/event.py", line 180, in send_message
+    await message.channel.send(response, view=MyView(chatbot, suggest_responses))
+  File "/home/container/.local/lib/python3.11/site-packages/discord/abc.py", line 1561, in send
+    data = await state.http.send_message(channel.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/discord/http.py", line 744, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.1.label: Must be 80 or fewer in length.[0m
+[30;1m2023-08-31 00:02:27[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mBing has been successfully reset[0m
+[30;1m2023-08-31 00:03:16[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msuperbowl_81698#0[0m : 'get3d or alpha3d' (Allgemein) [Style: balanced]
+[30;1m2023-08-31 00:03:27[0m [31mERROR   [0m [35mcogs.event[0m -> Error while sending message: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.1.label: Must be 80 or fewer in length.
+[31mTraceback (most recent call last):
+  File "/home/container/cogs/event.py", line 180, in send_message
+    await message.channel.send(response, view=MyView(chatbot, suggest_responses))
+  File "/home/container/.local/lib/python3.11/site-packages/discord/abc.py", line 1561, in send
+    data = await state.http.send_message(channel.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/discord/http.py", line 744, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.1.label: Must be 80 or fewer in length.[0m
+[30;1m2023-08-31 00:03:37[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31msuperbowl_81698#0 set Bing Cookies successful[0m
+[30;1m2023-08-31 00:03:46[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msuperbowl_81698#0[0m : 'get3d or alpha3d' (Allgemein) [Style: balanced]
+[30;1m2023-08-31 00:04:14[0m [31mERROR   [0m [35mcogs.event[0m -> Error while sending message: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.1.label: Must be 80 or fewer in length.
+[31mTraceback (most recent call last):
+  File "/home/container/cogs/event.py", line 180, in send_message
+    await message.channel.send(response, view=MyView(chatbot, suggest_responses))
+  File "/home/container/.local/lib/python3.11/site-packages/discord/abc.py", line 1561, in send
+    data = await state.http.send_message(channel.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/discord/http.py", line 744, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.1.label: Must be 80 or fewer in length.[0m
+[30;1m2023-08-31 00:04:37[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msuperbowl_81698#0[0m : 'Hi' (Allgemein) [Style: balanced]
+[30;1m2023-08-31 05:40:45[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mtezdread#0 set Bing Cookies successful[0m
+[30;1m2023-08-31 05:41:22[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mtezdread#0[0m : 'bing_cookies' (bing) [Style: balanced]
+[30;1m2023-08-31 05:42:35[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mtezdread#0[0m : 'what's the capital if England' (bing) [Style: balanced]
+[30;1m2023-08-31 08:19:56[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mdxrk81#0 set Bing Cookies successful[0m
+[30;1m2023-08-31 08:20:01[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mdxrk81#0[0m : 'hi bing' (bing-chat) [Style: balanced]
+[30;1m2023-08-31 08:20:48[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mdxrk81#0[0m : 'make me an image of purple food' (bing-chat) [Style: balanced]
+[30;1m2023-08-31 08:21:38[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mdxrk81#0[0m : 'Can you show me an image of green food?' (bing-chat) [Style: balanced] [button]
+[30;1m2023-08-31 08:22:24[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mdxrk81#0[0m : 'Can you show me an image of red food?' (bing-chat) [Style: balanced] [button]
+[30;1m2023-08-31 08:23:06[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mdxrk81#0[0m : 'Can you show me an image of yellow food?' (bing-chat) [Style: balanced] [button]
+[30;1m2023-08-31 08:30:05[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mdxrk81#0[0m : 'blue food' (bing-chat) [Style: balanced]
+[30;1m2023-08-31 08:50:48[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mdxrk81#0[0m : 'gay food' (bing-chat) [Style: balanced]
+[30;1m2023-08-31 08:51:32[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mdxrk81#0[0m : 'ok' (bing-chat) [Style: balanced]
+[30;1m2023-08-31 08:51:44[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mdxrk81#0[0m : 'did u end it' (bing-chat) [Style: balanced]
+[30;1m2023-08-31 09:04:25[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mConversation style has been successfully switch to creative[0m
+[30;1m2023-08-31 09:04:37[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mBing has been successfully reset[0m
+[30;1m2023-08-31 09:05:50[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mashwinmhaskar#0 set Bing Cookies successful[0m
+[30;1m2023-08-31 09:06:23[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mashwinmhaskar#0[0m : 'Create an image of an cute mitten in a basket' (ai-bots) [Style: balanced]
+[30;1m2023-08-31 09:06:59[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mConversation style has been successfully switch to creative[0m
+[30;1m2023-08-31 09:07:19[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mashwinmhaskar#0[0m : 'Generate me an image of a cat' (ai-bots) [Style: creative]
+[30;1m2023-08-31 09:07:52[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: 'adaptiveCards'
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 57, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.creative, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 202, in ask_stream
+    cache = response["item"]["messages"][1]["adaptiveCards"][0][
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: 'adaptiveCards'[0m
+[30;1m2023-08-31 09:08:41[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mBing has been successfully reset[0m
+[30;1m2023-08-31 09:08:54[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mConversation style has been successfully switch to creative[0m
+[30;1m2023-08-31 09:09:14[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mashwinmhaskar#0[0m : 'Create an image of a cute kitten' (ai-bots) [Style: creative]
+[30;1m2023-08-31 09:09:24[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: 
+[31mTraceback (most recent call last):
+  File "/home/container/.local/lib/python3.11/site-packages/websockets/legacy/client.py", line 662, in __await_impl__
+    await protocol.handshake(
+  File "/home/container/.local/lib/python3.11/site-packages/websockets/legacy/client.py", line 329, in handshake
+    raise InvalidStatusCode(status_code, response_headers)
+websockets.exceptions.InvalidStatusCode: server rejected WebSocket connection: HTTP 502
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/container/.local/lib/python3.11/site-packages/websockets/legacy/client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/websockets/legacy/client.py", line 676, in __await_impl__
+    await protocol.wait_closed()
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/container/src/response.py", line 57, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.creative, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 102, in ask_stream
+    async with connect(
+  File "/home/container/.local/lib/python3.11/site-packages/websockets/legacy/client.py", line 637, in __aenter__
+    return await self
+           ^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/websockets/legacy/client.py", line 654, in __await_impl_timeout__
+    async with asyncio_timeout(self.open_timeout):
+  File "/usr/local/lib/python3.11/asyncio/timeouts.py", line 111, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError[0m
+[30;1m2023-08-31 09:10:46[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mashwinmhaskar#0[0m : 'create an image of cute kitten' (bing-chat) [Style: creative]
+[30;1m2023-08-31 09:11:00[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: 'adaptiveCards'
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 57, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.creative, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 202, in ask_stream
+    cache = response["item"]["messages"][1]["adaptiveCards"][0][
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: 'adaptiveCards'[0m
+[30;1m2023-08-31 13:08:52[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mzitruszitrone#0 set Bing Cookies successful[0m
+[30;1m2023-08-31 13:08:59[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mzitruszitrone#0[0m : 'Hello!' (bing-chat) [Style: balanced]
+[30;1m2023-08-31 13:09:20[0m [31mERROR   [0m [35mcogs.event[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
+[31mTraceback (most recent call last):
+  File "/home/container/cogs/event.py", line 120, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 198, in ask_stream
+    raise Exception(
+Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
+[30;1m2023-08-31 15:20:09[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mrahulgoyal95#0 set Bing Cookies successful[0m
+[30;1m2023-08-31 15:20:36[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mrahulgoyal95#0[0m : 'how r u' (<PartialMessageable id=1146887051355111444 type=<ChannelType.private: 1>>) [Style: balanced]
+[30;1m2023-08-31 15:20:57[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 61, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 198, in ask_stream
+    raise Exception(
+Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
+[30;1m2023-08-31 18:45:36[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mtechard_xcix#0 set Bing Cookies successful[0m
+[30;1m2023-08-31 18:46:04[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mtechard_xcix#0[0m : 'cookies' (bing-chat³) [Style: balanced]
+[30;1m2023-08-31 18:46:05[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 61, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 198, in ask_stream
+    raise Exception(
+Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
+[30;1m2023-08-31 18:47:55[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mtechard_xcix#0[0m : 'Good evening.' (bing-chat³) [Style: balanced]
+[30;1m2023-08-31 18:47:57[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 61, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 198, in ask_stream
+    raise Exception(
+Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
+[30;1m2023-08-31 18:52:24[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mtechard_xcix#0[0m : 'How do I solve the CAPTCHA?' (bing-chat³) [Style: balanced]
+[30;1m2023-08-31 18:52:44[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 61, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 198, in ask_stream
+    raise Exception(
+Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
+[30;1m2023-08-31 18:56:22[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mBing has been successfully reset[0m
+[30;1m2023-08-31 18:57:45[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mtechard_xcix#0 set Bing Cookies successful[0m
+[30;1m2023-08-31 18:58:02[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mtechard_xcix#0[0m : '_cookies' (bing-chat³) [Style: balanced]
+[30;1m2023-08-31 18:58:03[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 61, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 198, in ask_stream
+    raise Exception(
+Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
+[30;1m2023-08-31 19:07:05[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mtechard_xcix#0[0m : '_cookies' (bing-chat³) [Style: balanced]
+[30;1m2023-08-31 19:07:25[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 61, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 198, in ask_stream
+    raise Exception(
+Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
+[30;1m2023-08-31 22:04:23[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31msaadfeer#2597 set Bing Cookies successful[0m
+[30;1m2023-08-31 22:04:34[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msaadfeer#2597[0m : 'animal sleeping' (general) [Style: balanced]
+[30;1m2023-08-31 22:04:55[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 61, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 198, in ask_stream
+    raise Exception(
+Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
+[30;1m2023-08-31 22:04:59[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msaadfeer#2597[0m : 'Polaroid photo of animal sleeping' (general) [Style: balanced]
+[30;1m2023-08-31 22:05:20[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 61, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 198, in ask_stream
+    raise Exception(
+Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
+[30;1m2023-09-01 05:09:59[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mphantom0777_2.0#0[0m : '--ship' (💬genræl) [Style: balanced]
+[30;1m2023-09-01 05:10:00[0m [31mERROR   [0m [35mcogs.event[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
+[31mTraceback (most recent call last):
+  File "/home/container/cogs/event.py", line 120, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 198, in ask_stream
+    raise Exception(
+Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
+[30;1m2023-09-01 05:30:45[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mkyzenai#0 set Bing Cookies successful[0m
+[30;1m2023-09-01 05:30:56[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mkyzenai#0[0m : 'what is the alberta government doing about homelessness?' (general) [Style: balanced]
+[30;1m2023-09-01 05:30:57[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 61, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 198, in ask_stream
+    raise Exception(
+Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
+[30;1m2023-09-01 05:58:03[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mkyzenai#0 set Bing Cookies successful[0m
+[30;1m2023-09-01 05:58:20[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mkyzenai#0[0m : 'why is the sky blue?' (general) [Style: balanced]
+[30;1m2023-09-01 05:58:43[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 61, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 198, in ask_stream
+    raise Exception(
+Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
+[30;1m2023-09-01 09:02:36[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mBing has been successfully reset[0m
+[30;1m2023-09-01 09:02:52[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mConversation style has been successfully switch to creative[0m
+[30;1m2023-09-01 09:03:10[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mashwinmhaskar#0[0m : 'create an image of a cute cat' (ai-bots) [Style: creative]
+[30;1m2023-09-01 09:03:10[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 57, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.creative, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 198, in ask_stream
+    raise Exception(
+Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
+[30;1m2023-09-01 09:37:06[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mmyorder#0 set Bing Cookies successful[0m
+[30;1m2023-09-01 11:43:16[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mrorotuck#0[0m : 'generate a image of  spiderman with a pistol old footage vhs 1996 at head' (bing-chat³) [Style: balanced]
+[30;1m2023-09-01 11:43:37[0m [31mERROR   [0m [35mcogs.event[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
+[31mTraceback (most recent call last):
+  File "/home/container/cogs/event.py", line 120, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 198, in ask_stream
+    raise Exception(
+Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
+[30;1m2023-09-01 11:46:20[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mrorotuck#0 set Bing Cookies successful[0m
+[30;1m2023-09-01 11:46:29[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mrorotuck#0[0m : 'hi'' (bing-chat) [Style: balanced]
+[30;1m2023-09-01 11:46:32[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: server rejected WebSocket connection: HTTP 502
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 61, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 102, in ask_stream
+    async with connect(
+  File "/home/container/.local/lib/python3.11/site-packages/websockets/legacy/client.py", line 637, in __aenter__
+    return await self
+           ^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/websockets/legacy/client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/websockets/legacy/client.py", line 662, in __await_impl__
+    await protocol.handshake(
+  File "/home/container/.local/lib/python3.11/site-packages/websockets/legacy/client.py", line 329, in handshake
+    raise InvalidStatusCode(status_code, response_headers)
+websockets.exceptions.InvalidStatusCode: server rejected WebSocket connection: HTTP 502[0m
+[30;1m2023-09-01 11:51:17[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mrodentrider#0[0m : 'not' (💬》general-chat) [Style: balanced]
+[30;1m2023-09-01 11:51:20[0m [31mERROR   [0m [35mcogs.event[0m -> Error while sending message: server rejected WebSocket connection: HTTP 502
+[31mTraceback (most recent call last):
+  File "/home/container/cogs/event.py", line 120, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 102, in ask_stream
+    async with connect(
+  File "/home/container/.local/lib/python3.11/site-packages/websockets/legacy/client.py", line 637, in __aenter__
+    return await self
+           ^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/websockets/legacy/client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/websockets/legacy/client.py", line 662, in __await_impl__
+    await protocol.handshake(
+  File "/home/container/.local/lib/python3.11/site-packages/websockets/legacy/client.py", line 329, in handshake
+    raise InvalidStatusCode(status_code, response_headers)
+websockets.exceptions.InvalidStatusCode: server rejected WebSocket connection: HTTP 502[0m
+[30;1m2023-09-01 17:11:57[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mdxrk81#0 set Bing Cookies successful[0m
+[30;1m2023-09-01 17:12:02[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mdxrk81#0[0m : 'Heyy' (bing-chat) [Style: balanced]
+[30;1m2023-09-01 17:12:22[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 61, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 198, in ask_stream
+    raise Exception(
+Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
+[30;1m2023-09-02 03:52:33[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mwuemeli#0 set Bing Cookies successful[0m
+[30;1m2023-09-02 03:52:53[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mwuemeli#0[0m : 'What is SplitticAi' (🤖｜bing) [Style: balanced]
+[30;1m2023-09-02 03:52:54[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 61, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 198, in ask_stream
+    raise Exception(
+Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
+[30;1m2023-09-02 09:09:59[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31maarif_shah#0 set Bing Cookies successful[0m
+[30;1m2023-09-02 09:10:08[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31maarif_shah#0[0m : 'hello' (🤖｜bing) [Style: balanced]
+[30;1m2023-09-02 09:10:09[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 61, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 198, in ask_stream
+    raise Exception(
+Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
+[30;1m2023-09-02 12:42:40[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mbattu#4438 set Bing Cookies successful[0m
+[30;1m2023-09-02 12:50:04[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msuperbowl_81698#0[0m : 'Hi' (bing-chat³) [Style: balanced]
+[30;1m2023-09-02 12:50:25[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 61, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 198, in ask_stream
+    raise Exception(
+Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
+[30;1m2023-09-02 12:52:49[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mrorotuck#0[0m : 'hi' (bing-chat) [Style: balanced]
+[30;1m2023-09-02 12:53:09[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 61, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 198, in ask_stream
+    raise Exception(
+Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
+[30;1m2023-09-03 19:57:35[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mAndrewPL#7690 set Bing Cookies successful[0m
+[30;1m2023-09-03 19:59:01[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mAndrewPL#7690[0m : 'hi bruh' (🤖｜bing) [Style: balanced]
+[30;1m2023-09-03 19:59:01[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
+[31mTraceback (most recent call last):
+  File "/home/container/src/response.py", line 61, in send_message
+    reply = await chatbot.ask(prompt=user_message, conversation_style=ConversationStyle.balanced, simplify_response=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/EdgeGPT.py", line 116, in ask
+    async for final, response in self.chat_hub.ask_stream(
+  File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 198, in ask_stream
+    raise Exception(
+Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
+[30;1m2023-09-04 10:25:02[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-09-04 10:27:33[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-09-04 10:28:39[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-09-04 10:29:29[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-09-04 10:30:38[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
+[30;1m2023-09-04 10:31:30[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!

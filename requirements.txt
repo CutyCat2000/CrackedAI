@@ -1,0 +1,17 @@
+httpx
+asyncio
+websockets
+websocket-client
+fake-useragent
+pillow
+bs4
+requests
+discord.py==2.2.2
+python-dotenv==0.20.0
+PyYAML==6.0
+EdgeGPT
+flask
+BingImageCreator==0.4.1
+lxml
+requests-toolbelt
+shazamio
