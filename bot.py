@@ -37,7 +37,7 @@ app = flask.Flask("app")
 
 @app.route("/")
 def isRunning():
-    return "SplitticAI and BingImageCreator are online."
+    return "Bots are online."
 
 def run():
   app.run(host="0.0.0.0", port=4061)
