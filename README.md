@@ -1,6 +1,6 @@
 # Bot
 
-SplitticAI fake bot cracked generators
+Discord bot free AI cracked generators
 
 ## Table of Contents
 
