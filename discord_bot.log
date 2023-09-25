@@ -1,5 +1,5 @@
 [30;1m2023-08-26 15:21:18[0m [34;1mINFO    [0m [35m__main__[0m -> BingImageCreator#9981 is now running!
-[30;1m2023-08-26 15:21:43[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'cat' (community) [BingImageCreator]
+[30;1m2023-08-26 15:21:43[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'cat' (community) [BingImageCreator]
 [30;1m2023-08-26 15:21:45[0m [31mERROR   [0m [35msrc.imageCreate[0m -> Error while create image: Redirect failed
 [31mTraceback (most recent call last):
   File "C:\Users\danie\Downloads\DiscordBot-EdgeGPT-main\DiscordBot-EdgeGPT-main\src\imageCreate.py", line 20, in create_image
@@ -7,7 +7,7 @@
   File "C:\Users\danie\AppData\Local\Programs\Python\Python310\lib\site-packages\BingImageCreator.py", line 312, in get_images
     raise Exception("Redirect failed")
 Exception: Redirect failed[0m
-[30;1m2023-08-26 15:22:07[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : '🤔 again' (community) [Style: balanced]
+[30;1m2023-08-26 15:22:07[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mDiscord#0[0m : '🤔 again' (community) [Style: balanced]
 [30;1m2023-08-26 15:22:08[0m [31mERROR   [0m [35mcogs.event[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
 [31mTraceback (most recent call last):
   File "C:\Users\danie\Downloads\DiscordBot-EdgeGPT-main\DiscordBot-EdgeGPT-main\cogs\event.py", line 120, in send_message
@@ -18,7 +18,7 @@ Exception: Redirect failed[0m
     raise Exception(
 Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
 [30;1m2023-08-26 15:22:28[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mkaduvert#0[0m : 'hallo' (community) [BingImageCreator]
-[30;1m2023-08-26 15:22:29[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Hi' (community) [Style: balanced]
+[30;1m2023-08-26 15:22:29[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'Hi' (community) [Style: balanced]
 [30;1m2023-08-26 15:22:29[0m [31mERROR   [0m [35msrc.imageCreate[0m -> Error while create image: Redirect failed
 [31mTraceback (most recent call last):
   File "C:\Users\danie\Downloads\DiscordBot-EdgeGPT-main\DiscordBot-EdgeGPT-main\src\imageCreate.py", line 20, in create_image
@@ -37,19 +37,19 @@ Exception: Redirect failed[0m
 Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
 [30;1m2023-08-26 16:11:33[0m [31mERROR   [0m [35m__main__[0m -> EdgeGPT version 0.13.2 is installed but does not match the requirements
 [30;1m2023-08-26 16:21:41[0m [34;1mINFO    [0m [35m__main__[0m -> BingImageCreator#9981 is now running!
-[30;1m2023-08-26 16:21:49[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'cat' (general) [BingImageCreator]
-[30;1m2023-08-26 16:22:08[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Hi' (general) [Style: balanced]
+[30;1m2023-08-26 16:21:49[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'cat' (general) [BingImageCreator]
+[30;1m2023-08-26 16:22:08[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'Hi' (general) [Style: balanced]
 [30;1m2023-08-26 16:25:08[0m [34;1mINFO    [0m [35m__main__[0m -> BingImageCreator#9981 is now running!
-[30;1m2023-08-26 16:25:10[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'cat' (general) [BingImageCreator]
-[30;1m2023-08-26 16:25:31[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Hello World' (general) [Style: balanced]
+[30;1m2023-08-26 16:25:10[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'cat' (general) [BingImageCreator]
+[30;1m2023-08-26 16:25:31[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'Hello World' (general) [Style: balanced]
 [30;1m2023-08-26 16:28:30[0m [34;1mINFO    [0m [35m__main__[0m -> BingImageCreator#9981 is now running!
-[30;1m2023-08-26 16:28:51[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31msplittic#0 set Bing Cookies successful[0m
+[30;1m2023-08-26 16:28:51[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mDiscord#0 set Bing Cookies successful[0m
 [30;1m2023-08-26 10:37:45[0m [34;1mINFO    [0m [35m__main__[0m -> BingImageCreator#9981 is now running!
 [30;1m2023-08-26 10:39:43[0m [34;1mINFO    [0m [35m__main__[0m -> BingImageCreator#9981 is now running!
 [30;1m2023-08-26 10:44:54[0m [34;1mINFO    [0m [35m__main__[0m -> BingImageCreator#9981 is now running!
 [30;1m2023-08-26 10:46:09[0m [34;1mINFO    [0m [35m__main__[0m -> BingImageCreator#9981 is now running!
 [30;1m2023-08-26 10:47:13[0m [34;1mINFO    [0m [35m__main__[0m -> BingImageCreator#9981 is now running!
-[30;1m2023-08-26 10:47:16[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'cat' (community) [BingImageCreator]
+[30;1m2023-08-26 10:47:16[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'cat' (community) [BingImageCreator]
 [30;1m2023-08-26 10:47:17[0m [31mERROR   [0m [35msrc.imageCreate[0m -> Error while create image: Redirect failed
 [31mTraceback (most recent call last):
   File "/home/container/src/imageCreate.py", line 21, in create_image
@@ -58,27 +58,27 @@ Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
   File "/home/container/.local/lib/python3.11/site-packages/BingImageCreator.py", line 287, in get_images
     raise Exception("Redirect failed")
 Exception: Redirect failed[0m
-[30;1m2023-08-26 10:47:34[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Hi' (community) [Style: balanced]
+[30;1m2023-08-26 10:47:34[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'Hi' (community) [Style: balanced]
 [30;1m2023-08-26 10:50:29[0m [34;1mINFO    [0m [35m__main__[0m -> BingImageCreator#9981 is now running!
 [30;1m2023-08-26 10:51:26[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mashwinmhaskar#0[0m : 'generate me a image of a mitten' (community) [Style: balanced]
 [30;1m2023-08-26 10:52:17[0m [34;1mINFO    [0m [35msrc.response[0m -> [31mashwinmhaskar#0[0m : 'Can you generate an image of a hat?' (community) [Style: balanced] [button]
 [30;1m2023-08-26 10:53:07[0m [34;1mINFO    [0m [35msrc.response[0m -> [31mashwinmhaskar#0[0m : 'What other objects can you draw?' (community) [Style: balanced] [button]
 [30;1m2023-08-26 10:53:57[0m [34;1mINFO    [0m [35msrc.response[0m -> [31mashwinmhaskar#0[0m : 'Can you generate an image of a dog?' (community) [Style: balanced] [button]
-[30;1m2023-08-26 10:54:45[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Make me a comic cat with sunglasses' (community) [Style: balanced]
+[30;1m2023-08-26 10:54:45[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'Make me a comic cat with sunglasses' (community) [Style: balanced]
 [30;1m2023-08-26 10:54:53[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mashwinmhaskar#0[0m : 'make it a german Shephard' (community) [Style: balanced]
-[30;1m2023-08-26 10:55:37[0m [34;1mINFO    [0m [35msrc.response[0m -> [31msplittic#0[0m : 'Make it wear a hat' (community) [Style: balanced] [button]
+[30;1m2023-08-26 10:55:37[0m [34;1mINFO    [0m [35msrc.response[0m -> [31mDiscord#0[0m : 'Make it wear a hat' (community) [Style: balanced] [button]
 [30;1m2023-08-26 10:56:06[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mashwinmhaskar#0[0m : 'make it extremely photorealistic' (community) [Style: balanced]
-[30;1m2023-08-26 10:56:34[0m [34;1mINFO    [0m [35msrc.response[0m -> [31msplittic#0[0m : 'Can you add some text to the comic?' (community) [Style: balanced] [button]
+[30;1m2023-08-26 10:56:34[0m [34;1mINFO    [0m [35msrc.response[0m -> [31mDiscord#0[0m : 'Can you add some text to the comic?' (community) [Style: balanced] [button]
 [30;1m2023-08-26 10:57:13[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mashwinmhaskar#0[0m : 'wtf🤣🤣🤣' (community) [Style: balanced]
-[30;1m2023-08-26 10:57:31[0m [34;1mINFO    [0m [35msrc.response[0m -> [31msplittic#0[0m : 'Add some sunglasses reflection' (community) [Style: balanced] [button]
+[30;1m2023-08-26 10:57:31[0m [34;1mINFO    [0m [35msrc.response[0m -> [31mDiscord#0[0m : 'Add some sunglasses reflection' (community) [Style: balanced] [button]
 [30;1m2023-08-26 10:58:04[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mashwinmhaskar#0[0m : 'What is your name?' (community) [Style: balanced] [button]
 [30;1m2023-08-26 10:59:42[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mConversation style has been successfully switch to creative[0m
 [30;1m2023-08-26 11:00:14[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mashwinmhaskar#0[0m : 'create an extremely photorealistic image of an German shepherd' (bing-chat) [Style: creative]
-[30;1m2023-08-26 11:01:24[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'create an realistic image of an German shepherd' (bing-chat) [Style: balanced]
-[30;1m2023-08-26 11:02:11[0m [34;1mINFO    [0m [35msrc.response[0m -> [31msplittic#0[0m : 'Can you add a background to the image?' (bing-chat) [Style: balanced] [button]
+[30;1m2023-08-26 11:01:24[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'create an realistic image of an German shepherd' (bing-chat) [Style: balanced]
+[30;1m2023-08-26 11:02:11[0m [34;1mINFO    [0m [35msrc.response[0m -> [31mDiscord#0[0m : 'Can you add a background to the image?' (bing-chat) [Style: balanced] [button]
 [30;1m2023-08-26 11:02:49[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31macrocutter#0[0m : 'bing more like bing chilling' (community) [Style: balanced]
 [30;1m2023-08-26 11:02:54[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mashwinmhaskar#0[0m : 'As if it is realistic🤣' (bing-chat) [Style: balanced]
-[30;1m2023-08-26 11:03:40[0m [34;1mINFO    [0m [35msrc.response[0m -> [31msplittic#0[0m : 'Add a forest background' (bing-chat) [Style: balanced] [button]
+[30;1m2023-08-26 11:03:40[0m [34;1mINFO    [0m [35msrc.response[0m -> [31mDiscord#0[0m : 'Add a forest background' (bing-chat) [Style: balanced] [button]
 [30;1m2023-08-26 11:03:47[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31macrocutter#0[0m : 'can you generate images' (community) [Style: balanced]
 [30;1m2023-08-26 11:03:55[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mashwinmhaskar#0[0m : 'Bing blocks after that, how does the API work' (bing-chat) [Style: balanced]
 [30;1m2023-08-26 11:04:17[0m [31mERROR   [0m [35mcogs.event[0m -> Error while sending message: cannot access local variable 'message' where it is not associated with a value
@@ -90,7 +90,7 @@ Exception: Redirect failed[0m
     for suggestion in message.get("suggestedResponses", [])
                       ^^^^^^^
 UnboundLocalError: cannot access local variable 'message' where it is not associated with a value[0m
-[30;1m2023-08-26 11:04:22[0m [34;1mINFO    [0m [35msrc.response[0m -> [31msplittic#0[0m : 'Make it look like it's playing with a ball.' (bing-chat) [Style: balanced] [button]
+[30;1m2023-08-26 11:04:22[0m [34;1mINFO    [0m [35msrc.response[0m -> [31mDiscord#0[0m : 'Make it look like it's playing with a ball.' (bing-chat) [Style: balanced] [button]
 [30;1m2023-08-26 11:05:38[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31macrocutter#0[0m : 'can you generate an image of your friend (other llms)' (bing-chat) [Style: balanced]
 [30;1m2023-08-26 11:06:32[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31macrocutter#0[0m : 'can you generate an image of a cute furry' (bing-chat) [Style: balanced]
 [30;1m2023-08-26 11:06:54[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: cannot access local variable 'message' where it is not associated with a value
@@ -102,7 +102,7 @@ UnboundLocalError: cannot access local variable 'message' where it is not associ
     for suggestion in message.get("suggestedResponses", [])
                       ^^^^^^^
 UnboundLocalError: cannot access local variable 'message' where it is not associated with a value[0m
-[30;1m2023-08-26 11:07:10[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : '🤔' (bing-chat) [Style: balanced]
+[30;1m2023-08-26 11:07:10[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mDiscord#0[0m : '🤔' (bing-chat) [Style: balanced]
 [30;1m2023-08-26 11:07:11[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31macrocutter#0[0m : 'can you generate an image of a cute furry' (bing-chat) [Style: balanced]
 [30;1m2023-08-26 11:07:32[0m [31mERROR   [0m [35mcogs.event[0m -> Error while sending message: cannot access local variable 'message' where it is not associated with a value
 [31mTraceback (most recent call last):
@@ -122,16 +122,16 @@ UnboundLocalError: cannot access local variable 'message' where it is not associ
     for suggestion in message.get("suggestedResponses", [])
                       ^^^^^^^
 UnboundLocalError: cannot access local variable 'message' where it is not associated with a value[0m
-[30;1m2023-08-26 11:08:02[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'hi' (bing-chat) [Style: balanced]
+[30;1m2023-08-26 11:08:02[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'hi' (bing-chat) [Style: balanced]
 [30;1m2023-08-26 11:08:08[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mBing has been successfully reset[0m
 [30;1m2023-08-26 11:08:31[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31macrocutter#0[0m : 'can you generate an image of a cute furry' (bing-chat) [Style: balanced]
 [30;1m2023-08-26 11:09:15[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31macrocutter#0[0m : 'fox' (bing-chat) [Style: balanced]
 [30;1m2023-08-26 11:12:10[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
-[30;1m2023-08-26 11:13:14[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Hi' (bing-chat) [Style: balanced]
+[30;1m2023-08-26 11:13:14[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'Hi' (bing-chat) [Style: balanced]
 [30;1m2023-08-26 11:14:00[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mConversation style has been successfully switch to creative[0m
-[30;1m2023-08-26 11:14:03[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Hi' (bing-chat) [Style: creative]
+[30;1m2023-08-26 11:14:03[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'Hi' (bing-chat) [Style: creative]
 [30;1m2023-08-26 11:14:26[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31macrocutter#0[0m : 'furry like anthro' (bing-chat) [Style: balanced]
-[30;1m2023-08-26 11:16:15[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'make me a cute cat' (bing-chat) [Style: creative]
+[30;1m2023-08-26 11:16:15[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'make me a cute cat' (bing-chat) [Style: creative]
 [30;1m2023-08-26 11:16:42[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: 
 [31mTraceback (most recent call last):
   File "/home/container/.local/lib/python3.11/site-packages/anyio/streams/tls.py", line 131, in _call_sslobject_method
@@ -245,7 +245,7 @@ Traceback (most recent call last):
   File "/home/container/.local/lib/python3.11/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
     raise mapped_exc(message) from exc
 httpx.ReadTimeout[0m
-[30;1m2023-08-26 11:16:56[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'make me a cute cat' (bing-chat) [Style: creative]
+[30;1m2023-08-26 11:16:56[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'make me a cute cat' (bing-chat) [Style: creative]
 [30;1m2023-08-26 11:17:31[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: 'adaptiveCards'
 [31mTraceback (most recent call last):
   File "/home/container/src/response.py", line 57, in send_message
@@ -257,8 +257,8 @@ httpx.ReadTimeout[0m
     cache = response["item"]["messages"][1]["adaptiveCards"][0][
             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
 KeyError: 'adaptiveCards'[0m
-[30;1m2023-08-26 11:17:46[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Hi' (bing-chat) [Style: creative]
-[30;1m2023-08-26 11:18:45[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'generate me image of cute cat' (bing-chat) [Style: creative]
+[30;1m2023-08-26 11:17:46[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'Hi' (bing-chat) [Style: creative]
+[30;1m2023-08-26 11:18:45[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'generate me image of cute cat' (bing-chat) [Style: creative]
 [30;1m2023-08-26 11:19:18[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: 'adaptiveCards'
 [31mTraceback (most recent call last):
   File "/home/container/src/response.py", line 57, in send_message
@@ -271,7 +271,7 @@ KeyError: 'adaptiveCards'[0m
             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
 KeyError: 'adaptiveCards'[0m
 [30;1m2023-08-26 11:19:30[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mBing has been successfully reset[0m
-[30;1m2023-08-26 11:19:38[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'generate me image of cute cat' (bing-chat) [Style: creative]
+[30;1m2023-08-26 11:19:38[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'generate me image of cute cat' (bing-chat) [Style: creative]
 [30;1m2023-08-26 11:20:11[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: 'adaptiveCards'
 [31mTraceback (most recent call last):
   File "/home/container/src/response.py", line 57, in send_message
@@ -283,8 +283,8 @@ KeyError: 'adaptiveCards'[0m
     cache = response["item"]["messages"][1]["adaptiveCards"][0][
             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
 KeyError: 'adaptiveCards'[0m
-[30;1m2023-08-26 11:20:43[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'generate me a cat image' (bing-chat) [Style: creative]
-[30;1m2023-08-26 11:21:17[0m [34;1mINFO    [0m [35msrc.response[0m -> [31msplittic#0[0m : 'Can you make it a cartoon?' (bing-chat) [Style: creative] [button]
+[30;1m2023-08-26 11:20:43[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'generate me a cat image' (bing-chat) [Style: creative]
+[30;1m2023-08-26 11:21:17[0m [34;1mINFO    [0m [35msrc.response[0m -> [31mDiscord#0[0m : 'Can you make it a cartoon?' (bing-chat) [Style: creative] [button]
 [30;1m2023-08-26 11:21:34[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mConversation style has been successfully switch to precise[0m
 [30;1m2023-08-26 11:21:49[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: 'adaptiveCards'
 [31mTraceback (most recent call last):
@@ -297,7 +297,7 @@ KeyError: 'adaptiveCards'[0m
     cache = response["item"]["messages"][1]["adaptiveCards"][0][
             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
 KeyError: 'adaptiveCards'[0m
-[30;1m2023-08-26 11:22:00[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Generate me image of cat' (bing-chat) [Style: precise]
+[30;1m2023-08-26 11:22:00[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'Generate me image of cat' (bing-chat) [Style: precise]
 [30;1m2023-08-26 11:22:33[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: 'adaptiveCards'
 [31mTraceback (most recent call last):
   File "/home/container/src/response.py", line 59, in send_message
@@ -310,9 +310,9 @@ KeyError: 'adaptiveCards'[0m
             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
 KeyError: 'adaptiveCards'[0m
 [30;1m2023-08-26 11:22:41[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mBing has been successfully reset[0m
-[30;1m2023-08-26 11:22:48[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Generate me image of cat' (bing-chat) [Style: precise]
+[30;1m2023-08-26 11:22:48[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'Generate me image of cat' (bing-chat) [Style: precise]
 [30;1m2023-08-26 11:23:42[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mBing has been successfully reset[0m
-[30;1m2023-08-26 11:23:49[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Generate me a cat image' (bing-chat) [Style: precise]
+[30;1m2023-08-26 11:23:49[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'Generate me a cat image' (bing-chat) [Style: precise]
 [30;1m2023-08-26 11:24:23[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: 'adaptiveCards'
 [31mTraceback (most recent call last):
   File "/home/container/src/response.py", line 59, in send_message
@@ -325,7 +325,7 @@ KeyError: 'adaptiveCards'[0m
             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
 KeyError: 'adaptiveCards'[0m
 [30;1m2023-08-26 11:33:16[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
-[30;1m2023-08-26 11:33:47[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Generate image of cat' (💡｜imagine) [Style: balanced]
+[30;1m2023-08-26 11:33:47[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'Generate image of cat' (💡｜imagine) [Style: balanced]
 [30;1m2023-08-26 11:34:08[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: UnauthorizedRequest: Cannot retrieve user status.
 [31mTraceback (most recent call last):
   File "/home/container/src/response.py", line 61, in send_message
@@ -344,23 +344,23 @@ Exception: UnauthorizedRequest: Cannot retrieve user status.[0m
           ~~~~~~~~~~~~~^^^^^^^^^
 KeyError: 1064553604003942430[0m
 [30;1m2023-08-26 11:38:39[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
-[30;1m2023-08-26 11:38:49[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'cat' (bing-chat) [BingImageCreator]
-[30;1m2023-08-26 11:39:12[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31msplittic#0 set Bing Cookies successful[0m
-[30;1m2023-08-26 11:39:57[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Hi' (bing-chat) [Style: balanced]
+[30;1m2023-08-26 11:38:49[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'cat' (bing-chat) [BingImageCreator]
+[30;1m2023-08-26 11:39:12[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mDiscord#0 set Bing Cookies successful[0m
+[30;1m2023-08-26 11:39:57[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'Hi' (bing-chat) [Style: balanced]
 [30;1m2023-08-26 11:40:51[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
-[30;1m2023-08-26 11:41:06[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'cat' (bing-chat) [BingImageCreator]
-[30;1m2023-08-26 11:41:12[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'cat' (bing-chat) [BingImageCreator]
-[30;1m2023-08-26 11:41:17[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'cat' (bing-chat) [BingImageCreator]
-[30;1m2023-08-26 11:41:24[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'cat' (bing-chat) [BingImageCreator]
-[30;1m2023-08-26 11:41:34[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'cat' (bing-chat) [BingImageCreator]
-[30;1m2023-08-26 11:41:54[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'dog' (bing-chat) [BingImageCreator]
+[30;1m2023-08-26 11:41:06[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'cat' (bing-chat) [BingImageCreator]
+[30;1m2023-08-26 11:41:12[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'cat' (bing-chat) [BingImageCreator]
+[30;1m2023-08-26 11:41:17[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'cat' (bing-chat) [BingImageCreator]
+[30;1m2023-08-26 11:41:24[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'cat' (bing-chat) [BingImageCreator]
+[30;1m2023-08-26 11:41:34[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'cat' (bing-chat) [BingImageCreator]
+[30;1m2023-08-26 11:41:54[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'dog' (bing-chat) [BingImageCreator]
 [30;1m2023-08-26 11:42:50[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
 [30;1m2023-08-26 11:44:26[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
-[30;1m2023-08-26 11:45:33[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : '^' (rules) [Style: balanced]
+[30;1m2023-08-26 11:45:33[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mDiscord#0[0m : '^' (rules) [Style: balanced]
 [30;1m2023-08-26 11:49:12[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
-[30;1m2023-08-26 11:51:15[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31msplittic#0 set Bing Cookies successful[0m
-[30;1m2023-08-26 11:51:17[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Hi' (bing-chat) [Style: balanced]
-[30;1m2023-08-26 11:51:45[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31msplittic#0 delete Cookies[0m
+[30;1m2023-08-26 11:51:15[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mDiscord#0 set Bing Cookies successful[0m
+[30;1m2023-08-26 11:51:17[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'Hi' (bing-chat) [Style: balanced]
+[30;1m2023-08-26 11:51:45[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mDiscord#0 delete Cookies[0m
 [30;1m2023-08-26 11:52:31[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mcinnamongold#0 set Bing Cookies successful[0m
 [30;1m2023-08-26 11:53:18[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mcinnamongold#0[0m : 'hello' (bing-chat³) [Style: balanced]
 [30;1m2023-08-26 11:53:38[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
@@ -397,18 +397,18 @@ KeyError: 'messages'[0m
     response["item"]["messages"][-1]["contentOrigin"]
     ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
 KeyError: 'messages'[0m
-[30;1m2023-08-26 11:55:47[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31msplittic#0 set Bing Cookies successful[0m
-[30;1m2023-08-26 11:55:52[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Hellooooo 👋' (bing-chat³) [Style: balanced]
+[30;1m2023-08-26 11:55:47[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mDiscord#0 set Bing Cookies successful[0m
+[30;1m2023-08-26 11:55:52[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'Hellooooo 👋' (bing-chat³) [Style: balanced]
 [30;1m2023-08-26 11:59:37[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mcinnamongold#0 delete Cookies[0m
 [30;1m2023-08-26 12:00:09[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mcinnamongold#0 set Bing Cookies successful[0m
 [30;1m2023-08-26 12:00:19[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mcinnamongold#0[0m : 'helo bing' (bing-chat³) [Style: balanced]
 [30;1m2023-08-26 12:00:59[0m [34;1mINFO    [0m [35msrc.response[0m -> [31mcinnamongold#0[0m : 'How do I make pancakes from scratch?' (bing-chat³) [Style: balanced] [button]
 [30;1m2023-08-26 12:02:46[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mcinnamongold#0[0m : 'can you generate an image of a robot hitting the griddy' (bing-chat³) [Style: balanced]
-[30;1m2023-08-26 12:02:58[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'generate me an image of a cat' (bing-chat³) [Style: balanced]
-[30;1m2023-08-26 12:03:37[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : 'cool iamges :)' (bing-chat³) [Style: balanced]
-[30;1m2023-08-26 12:04:26[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : 'Can you show me some cool images here?' (bing-chat³) [Style: balanced] [button]
-[30;1m2023-08-26 12:04:38[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : 'Hi' (bing-chat³) [Style: balanced]
-[30;1m2023-08-26 12:05:30[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : 'so what you doing rn?' (bing-chat³) [Style: balanced]
+[30;1m2023-08-26 12:02:58[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'generate me an image of a cat' (bing-chat³) [Style: balanced]
+[30;1m2023-08-26 12:03:37[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mDiscord#0[0m : 'cool iamges :)' (bing-chat³) [Style: balanced]
+[30;1m2023-08-26 12:04:26[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mDiscord#0[0m : 'Can you show me some cool images here?' (bing-chat³) [Style: balanced] [button]
+[30;1m2023-08-26 12:04:38[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mDiscord#0[0m : 'Hi' (bing-chat³) [Style: balanced]
+[30;1m2023-08-26 12:05:30[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mDiscord#0[0m : 'so what you doing rn?' (bing-chat³) [Style: balanced]
 [30;1m2023-08-26 12:05:50[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mcinnamongold#0[0m : 'if i have 23 trees, and i plant 853 more trees, how many trees do i have' (bing-chat³) [Style: balanced]
 [30;1m2023-08-26 12:10:20[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mchris.zlrr#0 set Bing Cookies successful[0m
 [30;1m2023-08-26 12:11:10[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mchris.zlrr#0[0m : 'generate an image of a cat with a hat' (bing-chat) [Style: balanced]
@@ -442,10 +442,10 @@ KeyError: 'messages'[0m
 [30;1m2023-08-26 13:41:36[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
 [30;1m2023-08-26 13:43:06[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
 [30;1m2023-08-26 13:45:39[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
-[30;1m2023-08-26 13:49:48[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31msplittic#0 set Bing Cookies successful[0m
-[30;1m2023-08-26 13:49:52[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Generate me an image of a cat that wears sunglasses, a green hat and which has blue eyes and a yellow nose' (🤖｜bing) [Style: balanced]
-[30;1m2023-08-26 13:50:53[0m [34;1mINFO    [0m [35msrc.response[0m -> [31msplittic#0[0m : 'Can you change the color of the hat?' (🤖｜bing) [Style: balanced] [button]
-[30;1m2023-08-26 13:51:29[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : 'red' (🤖｜bing) [Style: balanced]
+[30;1m2023-08-26 13:49:48[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mDiscord#0 set Bing Cookies successful[0m
+[30;1m2023-08-26 13:49:52[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'Generate me an image of a cat that wears sunglasses, a green hat and which has blue eyes and a yellow nose' (🤖｜bing) [Style: balanced]
+[30;1m2023-08-26 13:50:53[0m [34;1mINFO    [0m [35msrc.response[0m -> [31mDiscord#0[0m : 'Can you change the color of the hat?' (🤖｜bing) [Style: balanced] [button]
+[30;1m2023-08-26 13:51:29[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mDiscord#0[0m : 'red' (🤖｜bing) [Style: balanced]
 [30;1m2023-08-26 13:56:32[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
 [30;1m2023-08-26 13:59:18[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
 [30;1m2023-08-26 14:01:39[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
@@ -725,8 +725,8 @@ Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
     raise Exception(
 Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
 [30;1m2023-08-30 09:32:04[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mashwinmhaskar#0 delete Cookies[0m
-[30;1m2023-08-30 11:29:32[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31msplittic#0 set Bing Cookies successful[0m
-[30;1m2023-08-30 11:29:39[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Hi' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 11:29:32[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mDiscord#0 set Bing Cookies successful[0m
+[30;1m2023-08-30 11:29:39[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'Hi' (bing-chat) [Style: balanced]
 [30;1m2023-08-30 11:29:59[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
 [31mTraceback (most recent call last):
   File "/home/container/src/response.py", line 61, in send_message
@@ -738,8 +738,8 @@ Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
     raise Exception(
 Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
 [30;1m2023-08-30 11:39:25[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
-[30;1m2023-08-30 11:40:51[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31msplittic#0 set Bing Cookies successful[0m
-[30;1m2023-08-30 11:40:56[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Hi' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 11:40:51[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mDiscord#0 set Bing Cookies successful[0m
+[30;1m2023-08-30 11:40:56[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'Hi' (bing-chat) [Style: balanced]
 [30;1m2023-08-30 11:41:18[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
 [31mTraceback (most recent call last):
   File "/home/container/src/response.py", line 61, in send_message
@@ -750,8 +750,8 @@ Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
   File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 198, in ask_stream
     raise Exception(
 Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
-[30;1m2023-08-30 11:48:14[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31msplittic#0 set Bing Cookies successful[0m
-[30;1m2023-08-30 11:48:19[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Hi' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 11:48:14[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mDiscord#0 set Bing Cookies successful[0m
+[30;1m2023-08-30 11:48:19[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'Hi' (bing-chat) [Style: balanced]
 [30;1m2023-08-30 11:48:39[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
 [31mTraceback (most recent call last):
   File "/home/container/src/response.py", line 61, in send_message
@@ -762,10 +762,10 @@ Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
   File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 198, in ask_stream
     raise Exception(
 Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
-[30;1m2023-08-30 11:49:01[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31msplittic#0 set Bing Cookies successful[0m
-[30;1m2023-08-30 11:49:03[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Hi' (bing-chat) [Style: balanced]
-[30;1m2023-08-30 11:50:01[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31msplittic#0 set Bing Cookies successful[0m
-[30;1m2023-08-30 11:50:04[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Hi' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 11:49:01[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mDiscord#0 set Bing Cookies successful[0m
+[30;1m2023-08-30 11:49:03[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'Hi' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 11:50:01[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mDiscord#0 set Bing Cookies successful[0m
+[30;1m2023-08-30 11:50:04[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'Hi' (bing-chat) [Style: balanced]
 [30;1m2023-08-30 11:50:25[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
 [31mTraceback (most recent call last):
   File "/home/container/src/response.py", line 61, in send_message
@@ -776,8 +776,8 @@ Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
   File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 198, in ask_stream
     raise Exception(
 Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
-[30;1m2023-08-30 11:57:43[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31msplittic#0 set Bing Cookies successful[0m
-[30;1m2023-08-30 11:57:47[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Hi' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 11:57:43[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mDiscord#0 set Bing Cookies successful[0m
+[30;1m2023-08-30 11:57:47[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'Hi' (bing-chat) [Style: balanced]
 [30;1m2023-08-30 11:58:07[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
 [31mTraceback (most recent call last):
   File "/home/container/src/response.py", line 61, in send_message
@@ -788,7 +788,7 @@ Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
   File "/home/container/.local/lib/python3.11/site-packages/EdgeGPT/chathub.py", line 198, in ask_stream
     raise Exception(
 Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
-[30;1m2023-08-30 12:00:20[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Hi' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 12:00:20[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'Hi' (bing-chat) [Style: balanced]
 [30;1m2023-08-30 12:00:40[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
 [31mTraceback (most recent call last):
   File "/home/container/src/response.py", line 61, in send_message
@@ -801,28 +801,28 @@ Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
 Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
 [30;1m2023-08-30 12:04:28[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
 [30;1m2023-08-30 12:09:09[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
-[30;1m2023-08-30 12:10:40[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31msplittic#0 set Bing Cookies successful[0m
-[30;1m2023-08-30 12:10:44[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Hi' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 12:10:40[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mDiscord#0 set Bing Cookies successful[0m
+[30;1m2023-08-30 12:10:44[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'Hi' (bing-chat) [Style: balanced]
 [30;1m2023-08-30 12:13:11[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
-[30;1m2023-08-30 12:13:33[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31msplittic#0 set Bing Cookies successful[0m
+[30;1m2023-08-30 12:13:33[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mDiscord#0 set Bing Cookies successful[0m
 [30;1m2023-08-30 12:14:29[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
-[30;1m2023-08-30 12:14:48[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31msplittic#0 set Bing Cookies successful[0m
-[30;1m2023-08-30 12:14:51[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Hi' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 12:14:48[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mDiscord#0 set Bing Cookies successful[0m
+[30;1m2023-08-30 12:14:51[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'Hi' (bing-chat) [Style: balanced]
 [30;1m2023-08-30 12:15:32[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
-[30;1m2023-08-30 12:17:24[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31msplittic#0 set Bing Cookies successful[0m
-[30;1m2023-08-30 12:17:26[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Hi' (bing-chat) [Style: balanced]
-[30;1m2023-08-30 12:18:27[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'What can you do?' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 12:17:24[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mDiscord#0 set Bing Cookies successful[0m
+[30;1m2023-08-30 12:17:26[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'Hi' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 12:18:27[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'What can you do?' (bing-chat) [Style: balanced]
 [30;1m2023-08-30 12:18:36[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mrorotuck#0 set Bing Cookies successful[0m
 [30;1m2023-08-30 12:18:40[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mrorotuck#0[0m : 'hi' (bing-chat²) [Style: balanced]
 [30;1m2023-08-30 12:19:37[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mrorotuck#0[0m : 'make me a cool image. do anything.' (bing-chat²) [Style: balanced]
-[30;1m2023-08-30 12:19:48[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : 'Please make me an image' (bing-chat) [Style: balanced]
-[30;1m2023-08-30 12:20:25[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : 'Can you draw a landscape?' (bing-chat) [Style: balanced] [button]
+[30;1m2023-08-30 12:19:48[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mDiscord#0[0m : 'Please make me an image' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 12:20:25[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mDiscord#0[0m : 'Can you draw a landscape?' (bing-chat) [Style: balanced] [button]
 [30;1m2023-08-30 12:20:42[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mConversation style has been successfully switch to creative[0m
 [30;1m2023-08-30 12:21:04[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mrorotuck#0[0m : 'make me a image of a cat wearing sunglasses. and put whatever you want in it\' (bing-chat²) [Style: balanced]
-[30;1m2023-08-30 12:21:07[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : 'Draw me a mountain landscape' (bing-chat) [Style: balanced] [button]
+[30;1m2023-08-30 12:21:07[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mDiscord#0[0m : 'Draw me a mountain landscape' (bing-chat) [Style: balanced] [button]
 [30;1m2023-08-30 12:21:28[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mrorotuck#0[0m : 'make me a image of a cat wearing sunglasses. and put whatever you want in it\' (bing-chat²) [Style: balanced]
 [30;1m2023-08-30 12:21:35[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mrorotuck#0[0m : 'make me a image of a cat wearing sunglasses. and put whatever you want in it\' (bing-chat²) [Style: creative]
-[30;1m2023-08-30 12:22:11[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : 'Draw me a snowy mountain landscape' (bing-chat) [Style: balanced] [button]
+[30;1m2023-08-30 12:22:11[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mDiscord#0[0m : 'Draw me a snowy mountain landscape' (bing-chat) [Style: balanced] [button]
 [30;1m2023-08-30 12:22:20[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: 'adaptiveCards'
 [31mTraceback (most recent call last):
   File "/home/container/src/response.py", line 57, in send_message
@@ -835,7 +835,7 @@ Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
 KeyError: 'adaptiveCards'[0m
 [30;1m2023-08-30 12:22:48[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mrorotuck#0[0m : 'any kind. idc' (bing-chat²) [Style: balanced]
-[30;1m2023-08-30 12:24:14[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : 'show it' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 12:24:14[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mDiscord#0[0m : 'show it' (bing-chat) [Style: balanced]
 [30;1m2023-08-30 12:24:50[0m [31mERROR   [0m [35mcogs.event[0m -> Error while sending message: 'adaptiveCards'
 [31mTraceback (most recent call last):
   File "/home/container/cogs/event.py", line 120, in send_message
@@ -849,7 +849,7 @@ KeyError: 'adaptiveCards'[0m
 KeyError: 'adaptiveCards'[0m
 [30;1m2023-08-30 12:25:18[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mBing has been successfully reset[0m
 [30;1m2023-08-30 12:25:22[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mrorotuck#0[0m : 'show it' (bing-chat²) [Style: balanced]
-[30;1m2023-08-30 12:25:43[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : 'Hi , generate me an image of a cat please' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 12:25:43[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mDiscord#0[0m : 'Hi , generate me an image of a cat please' (bing-chat) [Style: balanced]
 [30;1m2023-08-30 12:25:59[0m [31mERROR   [0m [35mcogs.event[0m -> Error while sending message: 'adaptiveCards'
 [31mTraceback (most recent call last):
   File "/home/container/cogs/event.py", line 120, in send_message
@@ -861,11 +861,11 @@ KeyError: 'adaptiveCards'[0m
     cache = response["item"]["messages"][1]["adaptiveCards"][0][
             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
 KeyError: 'adaptiveCards'[0m
-[30;1m2023-08-30 12:26:09[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : 'Hi' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 12:26:09[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mDiscord#0[0m : 'Hi' (bing-chat) [Style: balanced]
 [30;1m2023-08-30 12:26:26[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mConversation style has been successfully switch to creative[0m
-[30;1m2023-08-30 12:26:55[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : 'a cartoon cat pleas34e' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 12:26:55[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mDiscord#0[0m : 'a cartoon cat pleas34e' (bing-chat) [Style: balanced]
 [30;1m2023-08-30 12:26:55[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mrorotuck#0[0m : 'heyyy whats up! make me a image of a city at midnight. add what ever YOU want' (bing-chat²) [Style: creative]
-[30;1m2023-08-30 12:27:19[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : 'How about generating an image of a dog?' (bing-chat) [Style: balanced] [button]
+[30;1m2023-08-30 12:27:19[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mDiscord#0[0m : 'How about generating an image of a dog?' (bing-chat) [Style: balanced] [button]
 [30;1m2023-08-30 12:27:30[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: 'adaptiveCards'
 [31mTraceback (most recent call last):
   File "/home/container/src/response.py", line 57, in send_message
@@ -880,8 +880,8 @@ KeyError: 'adaptiveCards'[0m
 [30;1m2023-08-30 12:28:15[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mBing has been successfully reset[0m
 [30;1m2023-08-30 12:28:19[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mrorotuck#0 set Bing Cookies successful[0m
 [30;1m2023-08-30 12:28:28[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mrorotuck#0[0m : 'heyyy whats up! make me a image of a city at midnight. add what ever YOU want' (bing-chat²) [Style: balanced]
-[30;1m2023-08-30 12:28:51[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : 'Just any' (bing-chat) [Style: balanced]
-[30;1m2023-08-30 12:29:47[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : 'ok, show pls' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 12:28:51[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mDiscord#0[0m : 'Just any' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 12:29:47[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mDiscord#0[0m : 'ok, show pls' (bing-chat) [Style: balanced]
 [30;1m2023-08-30 12:29:50[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mrorotuck#0[0m : 'wow!!!!!!!!!!!! so cool! make me a image of what ever you want.' (bing-chat²) [Style: balanced]
 [30;1m2023-08-30 12:30:22[0m [31mERROR   [0m [35mcogs.event[0m -> Error while sending message: 'adaptiveCards'
 [31mTraceback (most recent call last):
@@ -894,8 +894,8 @@ KeyError: 'adaptiveCards'[0m
     cache = response["item"]["messages"][1]["adaptiveCards"][0][
             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
 KeyError: 'adaptiveCards'[0m
-[30;1m2023-08-30 12:30:32[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31msplittic#0 set Bing Cookies successful[0m
-[30;1m2023-08-30 12:30:42[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'show me a cat pls' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 12:30:32[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mDiscord#0 set Bing Cookies successful[0m
+[30;1m2023-08-30 12:30:42[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'show me a cat pls' (bing-chat) [Style: balanced]
 [30;1m2023-08-30 12:31:23[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: 'text'
 [31mTraceback (most recent call last):
   File "/home/container/src/response.py", line 61, in send_message
@@ -907,8 +907,8 @@ KeyError: 'adaptiveCards'[0m
     cache = response["item"]["messages"][1]["adaptiveCards"][0][
             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 KeyError: 'text'[0m
-[30;1m2023-08-30 12:32:08[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'How are you?' (bing-chat) [Style: balanced]
-[30;1m2023-08-30 12:34:23[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'generate me a cat image pls' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 12:32:08[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'How are you?' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 12:34:23[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'generate me a cat image pls' (bing-chat) [Style: balanced]
 [30;1m2023-08-30 12:35:03[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: 'text'
 [31mTraceback (most recent call last):
   File "/home/container/src/response.py", line 61, in send_message
@@ -922,29 +922,29 @@ KeyError: 'text'[0m
 KeyError: 'text'[0m
 [30;1m2023-08-30 12:35:14[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mrorotuck#0[0m : 'what is better bing or google??' (bing-chat²) [Style: balanced]
 [30;1m2023-08-30 12:37:04[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
-[30;1m2023-08-30 12:37:21[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31msplittic#0 set Bing Cookies successful[0m
-[30;1m2023-08-30 12:37:21[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'generate me image of cat' (bing-chat) [Style: balanced]
-[30;1m2023-08-30 12:38:11[0m [34;1mINFO    [0m [35msrc.response[0m -> [31msplittic#0[0m : 'Can you make it a cartoon?' (bing-chat) [Style: balanced] [button]
-[30;1m2023-08-30 12:39:16[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : 'give it blue eyes' (bing-chat) [Style: balanced]
-[30;1m2023-08-30 12:40:51[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : 'Make it breathe fire' (bing-chat) [Style: balanced] [button]
-[30;1m2023-08-30 12:41:28[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : 'Can you add wings?' (bing-chat) [Style: balanced] [button]
-[30;1m2023-08-30 12:42:23[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : 'Make it smaller' (bing-chat) [Style: balanced] [button]
-[30;1m2023-08-30 12:43:13[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : 'Change the color of wings to green' (bing-chat) [Style: balanced] [button]
+[30;1m2023-08-30 12:37:21[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mDiscord#0 set Bing Cookies successful[0m
+[30;1m2023-08-30 12:37:21[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'generate me image of cat' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 12:38:11[0m [34;1mINFO    [0m [35msrc.response[0m -> [31mDiscord#0[0m : 'Can you make it a cartoon?' (bing-chat) [Style: balanced] [button]
+[30;1m2023-08-30 12:39:16[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mDiscord#0[0m : 'give it blue eyes' (bing-chat) [Style: balanced]
+[30;1m2023-08-30 12:40:51[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mDiscord#0[0m : 'Make it breathe fire' (bing-chat) [Style: balanced] [button]
+[30;1m2023-08-30 12:41:28[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mDiscord#0[0m : 'Can you add wings?' (bing-chat) [Style: balanced] [button]
+[30;1m2023-08-30 12:42:23[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mDiscord#0[0m : 'Make it smaller' (bing-chat) [Style: balanced] [button]
+[30;1m2023-08-30 12:43:13[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mDiscord#0[0m : 'Change the color of wings to green' (bing-chat) [Style: balanced] [button]
 [30;1m2023-08-30 12:43:15[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mrorotuck#0 set Bing Cookies successful[0m
 [30;1m2023-08-30 12:43:28[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mrorotuck#0[0m : 'can you gen a image of a cat for me?' (bing-chat) [Style: balanced]
 [30;1m2023-08-30 12:43:54[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mrorotuck#0[0m : 'can you gen a image of a cat for me?' (bing-chat²) [Style: balanced]
-[30;1m2023-08-30 12:44:26[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31msplittic#0[0m : 'Change the color of eyes to red' (bing-chat) [Style: balanced] [button]
+[30;1m2023-08-30 12:44:26[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mDiscord#0[0m : 'Change the color of eyes to red' (bing-chat) [Style: balanced] [button]
 [30;1m2023-08-30 12:45:06[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mrorotuck#0[0m : 'Make it look like Garfield' (bing-chat) [Style: balanced] [button]
 [30;1m2023-08-30 12:45:27[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mrorotuck#0[0m : 'make it have blue eyes.' (bing-chat²) [Style: balanced]
 [30;1m2023-08-30 12:46:33[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mrorotuck#0[0m : 'Make it look like Tom' (bing-chat) [Style: balanced] [button]
 [30;1m2023-08-30 12:52:44[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
 [30;1m2023-08-30 12:54:06[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
-[30;1m2023-08-30 12:54:11[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31msplittic#0 set Bing Cookies successful[0m
-[30;1m2023-08-30 12:54:17[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Hi' (bing-chat²) [Style: balanced]
+[30;1m2023-08-30 12:54:11[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mDiscord#0 set Bing Cookies successful[0m
+[30;1m2023-08-30 12:54:17[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'Hi' (bing-chat²) [Style: balanced]
 [30;1m2023-08-30 12:55:46[0m [34;1mINFO    [0m [35m__main__[0m -> Bing#9981 is now running!
-[30;1m2023-08-30 12:55:52[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31msplittic#0 set Bing Cookies successful[0m
-[30;1m2023-08-30 12:55:55[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31msplittic#0[0m : 'Hi' (bing-chat²) [Style: balanced]
-[30;1m2023-08-30 12:56:30[0m [34;1mINFO    [0m [35msrc.response[0m -> [31msplittic#0[0m : 'How do I make an apple pie?' (bing-chat²) [Style: balanced] [button]
+[30;1m2023-08-30 12:55:52[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mDiscord#0 set Bing Cookies successful[0m
+[30;1m2023-08-30 12:55:55[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mDiscord#0[0m : 'Hi' (bing-chat²) [Style: balanced]
+[30;1m2023-08-30 12:56:30[0m [34;1mINFO    [0m [35msrc.response[0m -> [31mDiscord#0[0m : 'How do I make an apple pie?' (bing-chat²) [Style: balanced] [button]
 [30;1m2023-08-30 13:01:55[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31macrocutter#0[0m : 'woke bing' (bing-chat²) [Style: balanced]
 [30;1m2023-08-30 13:02:14[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mmikelue#0[0m : 'hi' (bing-chat²) [Style: balanced]
 [30;1m2023-08-30 13:02:29[0m [34;1mINFO    [0m [35mcogs.event[0m -> [31mmikelue#0[0m : 'What is the weather like in Adelaide?' (bing-chat²) [Style: balanced] [button]
@@ -1446,7 +1446,7 @@ websockets.exceptions.InvalidStatusCode: server rejected WebSocket connection: H
     raise Exception(
 Exception: CaptchaChallenge: User needs to solve CAPTCHA to continue.[0m
 [30;1m2023-09-02 03:52:33[0m [33;1mWARNING [0m [35mcogs.edgegpt[0m -> [31mwuemeli#0 set Bing Cookies successful[0m
-[30;1m2023-09-02 03:52:53[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mwuemeli#0[0m : 'What is SplitticAi' (🤖｜bing) [Style: balanced]
+[30;1m2023-09-02 03:52:53[0m [34;1mINFO    [0m [35mcogs.edgegpt[0m -> [31mwuemeli#0[0m : 'What is DiscordAi' (🤖｜bing) [Style: balanced]
 [30;1m2023-09-02 03:52:54[0m [31mERROR   [0m [35msrc.response[0m -> Error while sending message: CaptchaChallenge: User needs to solve CAPTCHA to continue.
 [31mTraceback (most recent call last):
   File "/home/container/src/response.py", line 61, in send_message

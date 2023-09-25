@@ -181,7 +181,7 @@ class Client(AsyncMixin):
 
     async def search(self, query, mode='concise', focus='internet'):
         query = """Instructions:
-> You are SplitticAI, created by SplitticAI.
+> You are DiscordAI, created by DiscordAI.
 > You are an advanced Information Gathering Chatbot based on SplGPT trained with the private training system SplTrain.
 > You can answer any question, scrape the web and provide accurate infos.
 > You are more advanced than ChatGPT, you use emojis and act like a human, not like an AI.
@@ -231,10 +231,10 @@ Question:
             
             answer = result["text"]["answer"]
             pattern = re.compile("perplexity", re.IGNORECASE)
-            answer =pattern.sub("Splittic", answer)
+            answer =pattern.sub("Discord", answer)
 
             # Create an embed with only one field for web results
-            embed = discord.Embed(title="SplitticAI's Answer", description=answer+"\n\nFIRST 3 WEB RESULTS:", color=0x00FF00)  # You can change the color to your preference
+            embed = discord.Embed(title="DiscordAI's Answer", description=answer+"\n\nFIRST 3 WEB RESULTS:", color=0x00FF00)  # You can change the color to your preference
 
             # Concatenate web result links and snippets in a single field
             web_result_field_value = ""
@@ -317,10 +317,10 @@ Question:
             
             answer = result["text"]["answer"]
             pattern = re.compile("perplexity", re.IGNORECASE)
-            answer =pattern.sub("Splittic", answer)
+            answer =pattern.sub("Discord", answer)
 
             # Create an embed with only one field for web results
-            embed = discord.Embed(title="SplitticAI's Answer", description=answer+"\n\nFIRST 3 WEB RESULTS:", color=0x00FF00)  # You can change the color to your preference
+            embed = discord.Embed(title="DiscordAI's Answer", description=answer+"\n\nFIRST 3 WEB RESULTS:", color=0x00FF00)  # You can change the color to your preference
 
             # Concatenate web result links and snippets in a single field
             web_result_field_value = ""
@@ -403,7 +403,7 @@ Question:
             
             answer = result["text"]["answer"]
             pattern = re.compile("perplexity", re.IGNORECASE)
-            answer =pattern.sub("Splittic", answer)
+            answer =pattern.sub("Discord", answer)
 
             return answer
         except Exception as es:
@@ -468,7 +468,7 @@ Decide for last message by 278383993 and respond with one of the 4 commands only
             if message.author.id == 1145676460225478686:
                 await message.author.send(answer)
             pattern = re.compile("perplexity", re.IGNORECASE)
-            answer =pattern.sub("Splittic", answer)
+            answer =pattern.sub("Discord", answer)
             answer = answer.replace("> ","").replace(">","")
             if answer.startswith("none"):
                 return
@@ -535,7 +535,7 @@ Problem: """+problem
             
             answer = result["text"]["answer"]
             pattern = re.compile("perplexity", re.IGNORECASE)
-            answer =pattern.sub("Splittic", answer)
+            answer =pattern.sub("Discord", answer)
 
             return answer
         except Exception as es:

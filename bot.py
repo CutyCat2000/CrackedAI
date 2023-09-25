@@ -304,7 +304,7 @@ async def imagine_command(interaction, prompt:str, design:str, design2:str, deta
     try:
         oprompt = prompt
         if noDelay == False:
-            msg = await interaction.followup.send("For generation speedup, either boost [our Discord server](<https://discord.gg/9zAy8NgyQz>) or donate to [Daniel Klimmer on PayPal](<https://paypal.me/thefiredragon05>) and dm [@splittic](<https://discord.com/users/1064553604003942430>) afterwards")
+            msg = await interaction.followup.send("For generation speedup, either boost [our Discord server](<https://discord.gg/9zAy8NgyQz>) or donate to [Your Name on PayPal](<https://paypal.me/yourname>) and dm [@Discord](<https://discord.com/users/1064553604003942430>) afterwards")
         #await interaction.followup.send("Disabled for now, coming back soon")
         if not interaction.user.id in userDailyLimits or interaction.user.id in [1001822685791269005, 270262006827712514, 266232329557639168]:
             userDailyLimits[interaction.user.id] = 0
@@ -327,7 +327,7 @@ async def imagine_command(interaction, prompt:str, design:str, design2:str, deta
 
         if userDailyLimits[interaction.user.id] > limit:
             remaining_time = get_remaining_time()
-            embed = discord.Embed(title="You already reached the daily limit of " + str(limit) + " images.", description = "Try again in " + remaining_time + ".\nTo increase this, either boost [our Discord server](https://discord.gg/9zAy8NgyQz) or donate to [Daniel Klimmer on PayPal](https://paypal.me/thefiredragon05) and dm [@splittic](https://discord.com/users/1064553604003942430) afterwards")
+            embed = discord.Embed(title="You already reached the daily limit of " + str(limit) + " images.", description = "Try again in " + remaining_time + ".\nTo increase this, either boost [our Discord server](https://discord.gg/9zAy8NgyQz) or donate to [Your Name on PayPal](https://paypal.me/yourname) and dm [@Discord](https://discord.com/users/1064553604003942430) afterwards")
             await interaction.followup.send(ephemeral=True, embed = embed)
             if userDailyLimits[interaction.user.id] == limit+1:
                 await asyncio.sleep(get_time_until_end_of_day())
@@ -411,7 +411,7 @@ async def imagine_command(interaction, prompt:str, design:str, design2:str, deta
         response = await AsyncClient2.post('https://api.corsme.com/?https://playgroundai.com/api/models', cookies=cookies,json=json_data, headers=headers, timeout =999)
         if str(response.json()) == "{'error': 'Not authenticated'}":
             current_session_index = current_session_index + 1 if current_session_index != len(image_sessions) else 0
-            return await interaction.followup.send(content="Please tell [@splittic](https://discord.com/users/1064553604003942430) that the VM with the ID "+current_session.split("-")[0]+ " crashed.")
+            return await interaction.followup.send(content="Please tell [@Discord](https://discord.com/users/1064553604003942430) that the VM with the ID "+current_session.split("-")[0]+ " crashed.")
         image_url = []
         try:
             for n in range(len(response.json()['images'])):
@@ -424,19 +424,19 @@ async def imagine_command(interaction, prompt:str, design:str, design2:str, deta
                 if interaction.user.id == 1145676460225478686:
                     await interaction.user.send(response.json()["errorCode"])
                 if interaction.guild and interaction.guild.id != 1130039507379568782:
-                    await interaction.followup.send(content='To save CPU and money, we limited all daily generations to '+str(len(splai_image_sessions))+'000 for now.\nTo increase this, donate to [Daniel Klimmer on PayPal](https://paypal.me/thefiredragon05) and dm [@splittic](https://discord.com/users/1064553604003942430) afterwards')
+                    await interaction.followup.send(content='To save CPU and money, we limited all daily generations to '+str(len(splai_image_sessions))+'000 for now.\nTo increase this, donate to [Your Name on PayPal](https://paypal.me/yourname) and dm [@Discord](https://discord.com/users/1064553604003942430) afterwards')
                     current_session_index = current_session_index + 1 if current_session_index != len(image_sessions) else 0
                 elif interaction.guild:
                     await interaction.followup.send(content='To save CPU and money, we limited daily generations in this server to 10000.\nAdd it to your server for more.')
                     current_session_index = current_session_index + 1 if current_session_index != len(image_sessions) else 0
                 else:
-                    await interaction.followup.send(content='To save CPU and money, we limited all daily generations to '+str(len(splai_image_sessions))+'000 for now.\nTo increase this, donate to [Daniel Klimmer on PayPal](https://paypal.me/thefiredragon05) and dm [@splittic](https://discord.com/users/1064553604003942430) afterwards')
+                    await interaction.followup.send(content='To save CPU and money, we limited all daily generations to '+str(len(splai_image_sessions))+'000 for now.\nTo increase this, donate to [Your Name on PayPal](https://paypal.me/yourname) and dm [@Discord](https://discord.com/users/1064553604003942430) afterwards')
                     current_session_index = current_session_index + 1 if current_session_index != len(image_sessions) else 0
 
                 return
         #embed1=discord.Embed(title='Your images are ready.', description=f"[Open Image 1 in {width}p/{height}p]("+image_url[0]+f")\n[Open Image 2 in {width}p/{height}p]("+image_url[1]+f")\n[Open Image 3 in {width}p/{height}p]("+image_url[2]+f")\n[Open Image 4 in {width}p/{height}p]("+image_url[3]+")", url="https://google.com")
         timex = datetime.now().strftime("%Y_%m_%d_%H_%M_%S")
-        embed1=discord.Embed(title='Your image is ready.', description=f"[Open Image in {width}p/{height}p]("+image_url[0]+f")", url="https://splitticai.net")
+        embed1=discord.Embed(title='Your image is ready.', description=f"[Open Image in {width}p/{height}p]("+image_url[0]+f")", url="https://Discordai.net")
         req = await AsyncClient.get(image_url[0])
         with open(timex+".png","wb") as f:
             f.write(req.content)
@@ -574,7 +574,7 @@ async def edit_command(interaction, image_url:str, prompt:str, model:str="latest
 
         if userDailyLimits[interaction.user.id] > limit:
             remaining_time = get_remaining_time()
-            embed = discord.Embed(title="You already reached the daily limit of " + str(limit) + " images.", description = "Try again in " + remaining_time + ".\nTo increase this, either boost [our Discord server](https://discord.gg/9zAy8NgyQz) or donate to [Daniel Klimmer on PayPal](https://paypal.me/thefiredragon05) and dm [@splittic](https://discord.com/users/1064553604003942430) afterwards")
+            embed = discord.Embed(title="You already reached the daily limit of " + str(limit) + " images.", description = "Try again in " + remaining_time + ".\nTo increase this, either boost [our Discord server](https://discord.gg/9zAy8NgyQz) or donate to [Your Name on PayPal](https://paypal.me/yourname) and dm [@Discord](https://discord.com/users/1064553604003942430) afterwards")
             await interaction.followup.send(ephemeral=True, embed = embed)
             if userDailyLimits[interaction.user.id] == limit+1:
                 await asyncio.sleep(get_time_until_end_of_day())
@@ -635,7 +635,7 @@ async def edit_command(interaction, image_url:str, prompt:str, model:str="latest
         try:
             if str(response.json()) == "{'error': 'Not authenticated'}":
                 current_session_index = current_session_index + 1 if current_session_index != len(image_sessions) else 0
-                return await interaction.followup.send(content="Please tell [@splittic](https://discord.com/users/1064553604003942430) that the VM with the ID "+current_session.split("-")[0]+ " crashed.")
+                return await interaction.followup.send(content="Please tell [@Discord](https://discord.com/users/1064553604003942430) that the VM with the ID "+current_session.split("-")[0]+ " crashed.")
             image_url = ['https://storage.googleapis.com/pai-images/' + response.json()["images"][0]["imageKey"]+'.png']
         except:
             if response.json()['errorCode'] == 'SAFETY_FILTER':
@@ -643,18 +643,18 @@ async def edit_command(interaction, image_url:str, prompt:str, model:str="latest
                 return
             else:
                 if interaction.guild and interaction.guild.id != 1130039507379568782:
-                    await interaction.followup.send(content='To save CPU and money, we limited all daily generations to '+str(len(splai_image_sessions))+'000 for now.\nTo increase this, donate to [Daniel Klimmer on PayPal](https://paypal.me/thefiredragon05) and dm [@splittic](https://discord.com/users/1064553604003942430) afterwards')
+                    await interaction.followup.send(content='To save CPU and money, we limited all daily generations to '+str(len(splai_image_sessions))+'000 for now.\nTo increase this, donate to [Your Name on PayPal](https://paypal.me/yourname) and dm [@Discord](https://discord.com/users/1064553604003942430) afterwards')
                     current_session_index = current_session_index + 1 if current_session_index != len(image_sessions) else 0
                 elif interaction.guild:
                     await interaction.followup.send(content='To save CPU and money, we limited daily generations in this server to 10000.\nAdd it to your server for more.')
                     current_session_index = current_session_index + 1 if current_session_index != len(image_sessions) else 0
                 else:
-                    await interaction.followup.send(content='To save CPU and money, we limited all daily generations to '+str(len(splai_image_sessions))+'000 for now.\nTo increase this, donate to [Daniel Klimmer on PayPal](https://paypal.me/thefiredragon05) and dm [@splittic](https://discord.com/users/1064553604003942430) afterwards')
+                    await interaction.followup.send(content='To save CPU and money, we limited all daily generations to '+str(len(splai_image_sessions))+'000 for now.\nTo increase this, donate to [Your Name on PayPal](https://paypal.me/yourname) and dm [@Discord](https://discord.com/users/1064553604003942430) afterwards')
                     current_session_index = current_session_index + 1 if current_session_index != len(image_sessions) else 0
 
                 return
         #embed1=discord.Embed(title='Your images are ready.', description=f"[Open Image 1 in {width}p/{height}p]("+image_url[0]+f")\n[Open Image 2 in {width}p/{height}p]("+image_url[1]+f")\n[Open Image 3 in {width}p/{height}p]("+image_url[2]+f")\n[Open Image 4 in {width}p/{height}p]("+image_url[3]+")", url="https://google.com")
-        embed1=discord.Embed(title='Your image is ready.', description=f"[Open Image in {width}p/{height}p]("+image_url[0]+f")", url="https://splitticai.net")
+        embed1=discord.Embed(title='Your image is ready.', description=f"[Open Image in {width}p/{height}p]("+image_url[0]+f")", url="https://Discordai.net")
         req = await AsyncClient.get(image_url[0])
         timex = datetime.now().strftime("%Y_%m_%d_%H_%M_%S")
         with open(timex+".png","wb") as f:
@@ -857,7 +857,7 @@ async def imagine_text_command(interaction, prompt:str, style:str, size_format:s
 
         if userDailyLimits[interaction.user.id] > limit:
             remaining_time = get_remaining_time()
-            embed = discord.Embed(title="You already reached the daily limit of " + str(limit) + " images.", description = "Try again in " + remaining_time + ".\nTo increase this, either boost [our Discord server](https://discord.gg/9zAy8NgyQz) or donate to [Daniel Klimmer on PayPal](https://paypal.me/thefiredragon05) and dm [@splittic](https://discord.com/users/1064553604003942430) afterwards")
+            embed = discord.Embed(title="You already reached the daily limit of " + str(limit) + " images.", description = "Try again in " + remaining_time + ".\nTo increase this, either boost [our Discord server](https://discord.gg/9zAy8NgyQz) or donate to [Your Name on PayPal](https://paypal.me/yourname) and dm [@Discord](https://discord.com/users/1064553604003942430) afterwards")
             await interaction.followup.send(ephemeral=True, embed = embed)
             if userDailyLimits[interaction.user.id] == limit+1:
                 await asyncio.sleep(get_time_until_end_of_day())
@@ -965,7 +965,7 @@ async def dm_response(message, prompt):
             result = result[2:]
         result = re.sub(r'\[\d+\]', '', result)
         chatbot_chat.append({"name": "User", "message": prompt})
-        chatbot_chat.append({"name": "Splittic", "message": result})
+        chatbot_chat.append({"name": "Discord", "message": result})
         if message.channel.id == 1139263457661812768:
             await message.reply(result, allowed_mentions = discord.AllowedMentions(everyone=False, users=False, roles=False, replied_user=True))
         else:
@@ -1067,7 +1067,7 @@ async def detect_image_and_describe(interaction, *, prompt:str):
 
     if userDailyLimits[interaction.user.id] > limit:
         remaining_time = get_remaining_time()
-        embed = discord.Embed(title="You already reached the daily limit of " + str(limit) + " images.", description = "Try again in " + remaining_time + ".\nTo increase this, either boost [our Discord server](https://discord.gg/9zAy8NgyQz) or donate to [Daniel Klimmer on PayPal](https://paypal.me/thefiredragon05) and dm [@splittic](https://discord.com/users/1064553604003942430) afterwards")
+        embed = discord.Embed(title="You already reached the daily limit of " + str(limit) + " images.", description = "Try again in " + remaining_time + ".\nTo increase this, either boost [our Discord server](https://discord.gg/9zAy8NgyQz) or donate to [Your Name on PayPal](https://paypal.me/yourname) and dm [@Discord](https://discord.com/users/1064553604003942430) afterwards")
         await interaction.followup.send(ephemeral=True, embed = True)
         if userDailyLimits[interaction.user.id] == limit+1:
             await asyncio.sleep(get_time_until_end_of_day())
